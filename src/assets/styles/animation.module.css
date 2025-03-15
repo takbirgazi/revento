@@ -1,0 +1,54 @@
+.slideAnim {
+    animation: slide 10s infinite linear;
+}
+
+.slideAnim2 {
+    animation: slide2 7s infinite ease-in-out;
+}
+
+.rotateAnim {
+    animation: rotate 10s infinite linear;
+}
+
+.rotateAnim2 {
+    animation: rotate2 10s infinite linear;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(-10px);
+    }
+
+    50% {
+        transform: translateX(35px);
+    }
+
+    100% {
+        transform: translateX(-10px);
+    }
+}
+
+@keyframes slide2 {
+    0% {
+        transform: translate(-7px);
+    }
+
+    50% {
+        transform: translate(7px);
+    }
+
+    100% {
+        transform: translate(-7px);
+    }
+}
+
+@keyframes rotate {
+    to {
+        transform: rotate(360deg);
+    }
+}
+@keyframes rotate2 {
+    to {
+        transform: rotate(-360deg);
+    }
+}
