@@ -3,7 +3,11 @@
 }
 
 .slideAnim2 {
-    animation: slide2 7s infinite ease-in-out;
+    animation: slide2 8s infinite ease-in-out;
+}
+
+.slideAnim3 {
+    animation: slide3 8s infinite ease-in-out;
 }
 
 .rotateAnim {
@@ -16,15 +20,15 @@
 
 @keyframes slide {
     0% {
-        transform: translateX(-10px);
+        transform: translateX(-10%);
     }
 
     50% {
-        transform: translateX(35px);
+        transform: translateX(30%);
     }
 
     100% {
-        transform: translateX(-10px);
+        transform: translateX(-10%);
     }
 }
 
@@ -41,12 +45,26 @@
         transform: translate(-7px);
     }
 }
+@keyframes slide3 {
+    0% {
+        transform: translateY(-7px);
+    }
+
+    50% {
+        transform: translateY(7px);
+    }
+
+    100% {
+        transform: translateY(-7px);
+    }
+}
 
 @keyframes rotate {
     to {
         transform: rotate(360deg);
     }
 }
+
 @keyframes rotate2 {
     to {
         transform: rotate(-360deg);

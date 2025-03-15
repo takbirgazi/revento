@@ -25,7 +25,7 @@ const Header = () => {
 
     return (
         <div className="bg-primaryBg">
-            <nav className="container mx-auto max-w-[1280px] lg:py-7 py-3 lg:px-0 px-5 flex items-center justify-between gap-16">
+            <nav className="container mx-auto max-w-3xl lg:py-7 py-3 lg:px-0 px-5 flex items-center justify-between gap-16">
                 <div className="flex items-center gap-16">
                     <Link href="/">
                         <figure>
