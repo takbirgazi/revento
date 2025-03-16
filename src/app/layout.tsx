@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Anton, Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header/Header";
+import Footer from "@/components/Footer/Footer";
 
 // Configure Anton font
 const anton = Anton({
@@ -29,10 +30,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${inter.variable} ${anton.variable}`}> 
+    <html lang="en" className={`${inter.variable} ${anton.variable}`}>
       <body className="font-inter"> {/* Default font is Inter */}
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );

@@ -1,14 +1,15 @@
-import CustomButton from "@/components/CustomButton/CustomButton";
+import CustomButton from "@/components/ShareComp/CustomButton/CustomButton";
 import Image from "next/image";
 import styles from "@/assets/styles/animation.module.css"
+import HeroBottom from "./HeroBottom/HeroBottom";
 
 const Hero = () => {
     return (
         <div className="bg-primaryBg ">
-            <div className="container mx-auto max-w-4xl pt-20">
+            <div className="container mx-auto pt-20">
                 <p className="text-white text-center font-medium md:text-base text-sm py-6 lg:py-2">❤️  #1 Popular Digital Marketing Agency</p>
 
-                <div className="lg:leading-30 leading-12">
+                <div className="max-w-4xl mx-auto lg:leading-30 leading-12">
                     <div className="flex justify-center">
                         <h2 className="relative text-center text-white text-[40px] lg:text-[100px] uppercase font-medium tracking-tight font-anton">Transforming
                             {/* Absolute Data */}
@@ -64,6 +65,8 @@ const Hero = () => {
                 <div className="flex justify-center items-center pb-5">
                     <CustomButton link="/" title="get in touch" />
                 </div>
+
+                <HeroBottom />
             </div>
         </div>
     );
