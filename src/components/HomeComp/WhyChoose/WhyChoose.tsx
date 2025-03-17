@@ -38,8 +38,8 @@ const WhyChoose = () => {
             <div className='flex flex-col lg:flex-row gap-4 justify-between pt-20'>
                 <div className='w-full lg:w-1/4 flex flex-col justify-around'>
                     <div className='flex flex-col lg:items-end'>
-                        <h4 className="text-2xl text-center lg:text-left lg:text-3xl pb-5 font-anton">Proven Expertise</h4>
-                        <p className='text-right py-5'>With years of experience and a track record of delivering measurable results, we craft strategies that work.</p>
+                        <h4 className="text-2xl text-left lg:text-left lg:text-3xl lg:pb-5 font-anton">Proven Expertise</h4>
+                        <p className='text-left lg:text-right py-2 lg:py-5 max-w-96'>With years of experience and a track record of delivering measurable results, we craft strategies that work.</p>
                         <CardSm cardData={cardOne} />
                     </div>
                     <div className='lg:block hidden'></div>
@@ -58,8 +58,8 @@ const WhyChoose = () => {
                 <div className='w-full lg:w-1/4 flex flex-col justify-around'>
                     <div className='lg:block hidden'></div>
                     <div>
-                        <h4 className="text-2xl text-center lg:text-left lg:text-3xl pb-5 font-anton">Data-Driven Approach</h4>
-                        <p className='py-5'>Using proven techniques, we build strategies that drive measurable outcomes.</p>
+                        <h4 className="text-2xl text-left lg:text-left lg:text-3xl lg:pb-5 font-anton">Data-Driven Approach</h4>
+                        <p className='py-2 lg:py-5 max-w-96'>Using proven techniques, we build strategies that drive measurable outcomes.</p>
                         <CardSm cardData={cardTwo} />
                     </div>
                 </div>

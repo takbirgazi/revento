@@ -45,6 +45,7 @@
         transform: translate(-7px);
     }
 }
+
 @keyframes slide3 {
     0% {
         transform: translateY(-7px);
@@ -57,6 +58,54 @@
     100% {
         transform: translateY(-7px);
     }
+}
+
+@keyframes rotate {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotate2 {
+    to {
+        transform: rotate(-360deg);
+    }
+}
+
+
+/* Highlights Animation */
+
+.CirkelMain {
+    align-content: center;
+    align-items: center;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    flex: none;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    position: relative;
+    width: 72px;
+    animation: rotate 5s infinite linear;
+}
+
+.CirkelMainCitation {
+    -webkit-mask: url(https://framerusercontent.com/images/caWUunPE0l3gKu44WEwyMAtfM.svg) alpha no-repeat center / cover add;
+    aspect-ratio: 1.6470588235294117 / 1;
+    background-color: #e9fa49;
+    mask: url(https://framerusercontent.com/images/caWUunPE0l3gKu44WEwyMAtfM.svg) alpha no-repeat center / cover add;
+    width: 28px;
+    z-index: 3;
+    animation: rotate2 5s infinite linear;
+}
+
+.CirkelMainBg {
+    -webkit-mask: url(https://framerusercontent.com/images/r7DLhVNJ2CVMamvyhv4EwAIj1h8.svg) alpha no-repeat center / cover add;
+    background-color: #9d89fc;
+    height: 100%;
+    mask: url(https://framerusercontent.com/images/r7DLhVNJ2CVMamvyhv4EwAIj1h8.svg) alpha no-repeat center / cover add;
+    position: absolute;
+    width: 100%;
 }
 
 @keyframes rotate {
