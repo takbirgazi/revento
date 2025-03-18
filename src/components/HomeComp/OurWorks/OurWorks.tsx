@@ -1,4 +1,5 @@
 import SectionHeader from "@/components/ShareComp/SectionHeader/SectionHeader";
+import CustomSlider from "./CustomSlider/CustomSlider";
 
 const OurWorks = () => {
     const headerData = {
@@ -13,7 +14,7 @@ const OurWorks = () => {
                 <SectionHeader headerData={headerData} />
             </div>
             <div>
-                carousal...
+                <CustomSlider />
             </div>
         </div>
     );

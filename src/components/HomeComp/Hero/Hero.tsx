@@ -5,7 +5,7 @@ import HeroBottom from "./HeroBottom/HeroBottom";
 
 const Hero = () => {
     return (
-        <div className="bg-primaryBg ">
+        <div className="bg-primaryBg">
             <div className="container mx-auto pt-20">
                 <p className="text-white text-center font-medium md:text-base text-sm py-6 lg:py-2">❤️  #1 Popular Digital Marketing Agency</p>
 
@@ -42,9 +42,22 @@ const Hero = () => {
                     </div>
 
                     <div className="flex justify-center">
-                        <h2 className="relative text-center text-white text-[40px] lg:text-[100px] uppercase font-medium tracking-tight font-anton">
-                            <span className="text-[#9d89fc] pr-11 md:pr-16 lg:pr-40">Vision into</span>
-                            <span className="text-[#ff8f27]">Impact</span>
+                        <h2 className="relative text-center text-white text-[40px] lg:text-[100px] uppercase font-medium tracking-tight flex items-center">
+                            <span className="text-[#9d89fc] font-anton">Vision into</span>
+                            <div className="relative h-10 w-12 lg:h-25 lg:w-30 bg-[#e9fa49] mx-3 -rotate-12">
+                                <div className="hidden lg:block absolute top-10 z-30 w-fit -left-6 py-1.5 text-sm rotate-90 overflow-hidden font-inter bg-[#051a2f]">
+                                    <p className="font-bold lowercase tracking-widest -mb-1.5 text-left">innovative</p>
+                                    <p className="font-bold capitalize tracking-widest text-left">Strategy</p>
+                                </div>
+                                <figure className={`w-full h-14 lg:h-32 absolute -top-4 lg:-top-7`}>
+                                    <Image className="h-full w-full" src="https://framerusercontent.com/images/YZ4YVYvxYcrDZTkwymDWD8arcwI.png" height={80} width={150} alt="Bounse" />
+                                </figure>
+
+                                <figure className={`absolute -top-[10%] -left-[10%] w-3 h-3 md:w-5 md:h-5 ${styles.rotateAnim}`}>
+                                    <Image className="h-full w-full" src="https://framerusercontent.com/images/zF24pyp35mOT35C0XWrgS7ZIoek.svg" height={80} width={150} alt="Bounse" />
+                                </figure>
+                            </div>
+                            <span className="text-[#ff8f27] font-anton">Impact</span>
                             <div className="absolute top-0 -left-[2%]">
                                 <figure className={`h-5 w-5 lg:h-10 lg:w-10`}>
                                     <Image className="h-full w-full" src="https://framerusercontent.com/images/Mfur6LVh1A1lVv5s9OYSbdNovE.svg" height={80} width={80} alt="Bounse" />

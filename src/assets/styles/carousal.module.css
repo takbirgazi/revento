@@ -1,0 +1,20 @@
+.carouselWrapper {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+}
+
+.carouselTrack {
+    display: flex;
+    gap: 20px;
+    animation: scrollAnimation 15s linear infinite;
+}
+
+@keyframes scrollAnimation {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-25%);
+    }
+}

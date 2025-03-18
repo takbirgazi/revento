@@ -19,7 +19,7 @@ const Testimonials = () => {
             </div>
             <div className="w-full md:w-2/3">
                 <div className="">
-                    <div className="py-5 flex md:justify-start justify-center">
+                    <div className="py-5 flex lg:justify-start justify-center">
                         <div className={styles.CirkelMain}>
                             <div className={styles.CirkelMainCitation}> </div>
                             <div className={styles.CirkelMainBg}> </div>

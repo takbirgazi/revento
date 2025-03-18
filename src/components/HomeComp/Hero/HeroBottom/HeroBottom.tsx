@@ -27,19 +27,19 @@ const HeroBottom = () => {
         <div className="pt-8 max-w-[1200px] mx-auto">
             <div className="flex flex-col lg:flex-row justify-between gap-4 px-5">
                 <div className="w-full lg:w-1/2">
-                    <p className="max-w-[450px] text-center lg:text-left">
+                    <p className="max-w-[450px] lg:mx-0 mx-auto text-center lg:text-left">
                         <span className="text-xl lg:text-4xl font-medium uppercase text-white tracking-tighter">5X Achieved ROI on Ad Spend Consistently! Average </span>
                         <span className="text-xl lg:text-4xl font-medium uppercase text-[#828d97] tracking-tighter"> Increase in ROI for Our Clients.</span>
                     </p>
                 </div>
                 <div className="w-full lg:w-1/2">
-                    <div className="flex gap-4 pb-5">
+                    <div className="flex gap-4 pb-5 justify-center lg:justify-start">
                         {
                             cards.map(card => <CardSm key={card.id} cardData={card} />)
                         }
 
                     </div>
-                    <p className="text-white max-w-lg text-sm lg:text-left text-center font-extralight">Helping brands thrive with strategic campaigns, creative content, and results-focused marketing precision marketing.</p>
+                    <p className="text-white max-w-lg lg:mx-0 mx-auto text-sm lg:text-left text-center font-extralight">Helping brands thrive with strategic campaigns, creative content, and results-focused marketing precision marketing.</p>
                 </div>
             </div>
             <div className="flex justify-center items-end pt-5 overflow-hidden">
