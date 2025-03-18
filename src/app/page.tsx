@@ -1,5 +1,7 @@
+import Faq from "@/components/HomeComp/Faq/Faq";
 import Hero from "@/components/HomeComp/Hero/Hero";
 import Highlights from "@/components/HomeComp/Highlights/Highlights";
+import Highlights2 from "@/components/HomeComp/Highlights2/Highlights2";
 import HowWork from "@/components/HomeComp/HowWork/HowWork";
 import OurWorks from "@/components/HomeComp/OurWorks/OurWorks";
 import Services from "@/components/HomeComp/Services/Services";
@@ -10,13 +12,15 @@ export default function Home() {
   return (
     <div>
       <Hero />
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4 md:pb-20">
         <Services />
         <WhyChoose />
         <HowWork />
         <Highlights />
         <OurWorks />
         <Testimonials />
+        <Faq />
+        <Highlights2 />
       </div>
     </div>
   );
