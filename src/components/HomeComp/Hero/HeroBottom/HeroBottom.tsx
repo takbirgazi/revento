@@ -42,7 +42,7 @@ const HeroBottom = () => {
                     <p className="text-white max-w-lg lg:mx-0 mx-auto text-sm lg:text-left text-center font-extralight">Helping brands thrive with strategic campaigns, creative content, and results-focused marketing precision marketing.</p>
                 </div>
             </div>
-            <div data-aos="fade-up" className="flex justify-center items-end pt-5 overflow-hidden">
+            <div className="flex justify-center items-end pt-5 overflow-hidden">
                 <figure className="h-10 w-16 md:h-20 md:w-32 lg:h-32 lg:w-40">
                     <Image className="w-full h-full" src="https://framerusercontent.com/images/hu1eUWnLUAIjJFEcHS6XHGyNUQ.svg" height={200} width={200} alt="Icon" />
                 </figure>
