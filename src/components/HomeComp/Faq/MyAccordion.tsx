@@ -31,7 +31,7 @@ import {
     return (
       <Accordion type="single" collapsible className="w-full flex flex-col md:gap-6">
 {
-    accordionData.map(data => <AccordionItem value={`item-${data.id}`}>
+    accordionData.map(data => <AccordionItem key={data.id} value={`item-${data.id}`}>
         <AccordionTrigger className="font-anton text-lg md:text-3xl">{data.title}</AccordionTrigger>
         <AccordionContent>{data.desc}</AccordionContent>
       </AccordionItem>)
