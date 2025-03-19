@@ -30,7 +30,7 @@ const CustomSlider = () => {
     ];
 
     return (
-        <div data-aos="fade-up" className="relative w-full overflow-hidden py-16">
+        <div className="relative w-full overflow-hidden py-16">
             <div className={`${styles.carouselWrapper}`}>
                 <div className={`${styles.carouselTrack}`}>
                     {[...sliders, ...sliders].map((slide, index) => (

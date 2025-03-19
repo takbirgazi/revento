@@ -10,12 +10,12 @@ const Faq = () => {
         headingColor: "#051a2f"
     }
     return (
-        <div className="py-10 flex flex-col md:flex-row gap-4 justify-between">
+        <div data-aos="fade-up" data-aos-offset="-200" className="py-10 flex flex-col md:flex-row gap-4 justify-between">
             <div className="w-full md:w-1/2">
                 <div className="lg:w-1/2 w-full">
                     <SectionHeader headerData={headerData} />
                 </div>
-                <p data-aos="fade-up" className="py-5 max-w-md text-lg text-center md:text-left">Everything You Need to Know About Revento, We have Answers to Your Questions About Revento’s Services and Approach.</p>
+                <p className="py-5 max-w-md text-lg text-center md:text-left">Everything You Need to Know About Revento, We have Answers to Your Questions About Revento’s Services and Approach.</p>
             </div>
             <div className="w-full md:w-1/2">
                 <MyAccordion />

@@ -13,7 +13,7 @@ const OurWorks = () => {
             <div className="lg:w-1/2 w-full">
                 <SectionHeader headerData={headerData} />
             </div>
-            <div>
+            <div data-aos="fade-up" data-aos-offset="-200" >
                 <CustomSlider />
             </div>
         </div>

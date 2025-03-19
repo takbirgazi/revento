@@ -5,8 +5,8 @@ import styles from "@/assets/styles/animation.module.css";
 
 const Highlights2 = () => {
     return (
-        <div className="p-4 flex justify-center items-center">
-            <div data-aos="fade-up" className="relative p-8 rounded-4xl bg-[#051a2f]">
+        <div  className="p-4 flex justify-center items-center">
+            <div className="relative p-8 rounded-4xl bg-[#051a2f]">
                 <h2 className="relative md:w-10/12 mx-auto font-anton text-center lg:leading-24 text-xl md:text-7xl text-white py-9 uppercase">Ready to Partner with Revento & unlock the full potential?
                     {/* absolute data  */}
                     <div className="absolute md:-bottom-9 md:right-[25%]">

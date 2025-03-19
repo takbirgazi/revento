@@ -29,7 +29,7 @@ export function MyAccordion() {
         },
     ]
     return (
-        <Accordion data-aos="fade-down" data-aos-once="false" type="single" collapsible className="w-full flex flex-col md:gap-6">
+        <Accordion type="single" collapsible className="w-full flex flex-col md:gap-6">
             {
                 accordionData.map(data => <AccordionItem key={data.id} value={`item-${data.id}`}>
                     <AccordionTrigger className="font-anton text-lg md:text-3xl">{data.title}</AccordionTrigger>

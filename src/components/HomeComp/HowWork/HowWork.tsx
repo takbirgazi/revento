@@ -39,7 +39,7 @@ const HowWork = () => {
         },
     ]
     return (
-        <div className="py-5">
+        <div data-aos="fade-up" data-aos-offset="-200" className="py-5">
             <SectionHeader headerData={headerData} />
             <div className="py-16 flex flex-col gap-4">
                 {

@@ -4,7 +4,7 @@ import styles from "@/assets/styles/animation.module.css";
 const Testimonials = () => {
     return (
         <div className="py-5 flex flex-col md:flex-row gap-20 items-center justify-between">
-            <div data-aos="fade-up" className='relative overflow-hidden'>
+            <div className='relative overflow-hidden'>
                 <figure className="rounded-4xl overflow-hidden">
                     <Image className='w-full h-full' src="https://framerusercontent.com/images/Ftw2WR3BA7Qta1YZhwxUYSOSJ6o.png?scale-down-to=1024" height={850} width={580} alt='Feature' />
                 </figure>
@@ -18,7 +18,7 @@ const Testimonials = () => {
                 </figure>
             </div>
             <div className="w-full md:w-2/3">
-                <div data-aos="fade-up">
+                <div>
                     <div className="py-5 flex lg:justify-start justify-center">
                         <div className={styles.CirkelMain}>
                             <div className={styles.CirkelMainCitation}> </div>
