@@ -46,7 +46,7 @@ const OurValues = () => {
                 </div>
                 <p className='w-full lg:w-1/3 text-center lg:text-left'>Experience growth through innovative digital marketing designed to reach, inspire, and deliver results.</p>
             </div>
-            <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 py-10">
+            <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 pt-10">
                 {
                     valuesData.map(data => <div key={data.id}>
                         <div className="flex gap-3 items-center pb-4">

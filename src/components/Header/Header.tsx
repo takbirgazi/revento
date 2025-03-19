@@ -19,7 +19,7 @@ const Header = () => {
         {
             id: 3,
             title: "Reviews",
-            slag: "/reviews"
+            slag: "/testimonial"
         }
     ]
 

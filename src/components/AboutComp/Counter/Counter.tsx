@@ -1,4 +1,6 @@
+"use client"
 import Image from "next/image";
+import CountUp from "react-countup";
 
 const Counter = () => {
     return (
@@ -11,7 +13,7 @@ const Counter = () => {
 
                 <div className={`bg-[#ff8f27] relative rounded-3xl overflow-hidden p-5 pt-7 pb-12`}>
                     <div className="flex justify-between">
-                        <h2 className="text-4xl lg:text-8xl tracking-wider font-anton font-bold pb-2 text-white">300+</h2>
+                        <h2 className="text-4xl lg:text-8xl tracking-wider font-anton font-bold pb-2 text-white"><CountUp end={100} />+</h2>
                     </div>
                     <h4 className="text-white text-lg font-bold pb-16">Successful Campaigns</h4>
                     <p className="w-11/12 text-sm leading-6 text-white">Tailored to your business goals and Successful Campaigns delivered across various industries..</p>
@@ -26,7 +28,7 @@ const Counter = () => {
 
                 <div className={`bg-[#e9fa49] relative rounded-3xl overflow-hidden p-5 pt-7 pb-12`}>
                     <div className="flex justify-between">
-                        <h2 className="text-4xl lg:text-8xl tracking-wider font-anton font-bold pb-2 text-gray-800">2.5x</h2>
+                        <h2 className="text-4xl lg:text-8xl tracking-wider font-anton font-bold pb-2 text-gray-800"><CountUp decimals={1} end={2.5} />x</h2>
                     </div>
                     <h4 className="text-gray-800 text-lg font-bold pb-16">Average ROI</h4>
                     <p className="w-11/12 text-sm leading-6 text-gray-800">Crafted for your success, delivering impactful campaigns across diverse industries worldwide.</p>
@@ -41,7 +43,7 @@ const Counter = () => {
 
                 <div className={`bg-[#9d89fc] relative rounded-3xl overflow-hidden p-5 pt-7 pb-12`}>
                     <div className="flex justify-between">
-                        <h2 className="text-4xl lg:text-8xl tracking-wider font-anton font-bold pb-2 text-white">10M+</h2>
+                        <h2 className="text-4xl lg:text-8xl tracking-wider font-anton font-bold pb-2 text-white"><CountUp end={10} />M+</h2>
                     </div>
                     <h4 className="text-white text-lg font-bold pb-16">Impressions generated</h4>
                     <p className="w-11/12 text-sm leading-6 text-white">Achieving excellence through personalized strategies and successful results in every industry.</p>
