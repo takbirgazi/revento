@@ -1,6 +1,5 @@
 import CardMd from '@/components/ShareComp/CardMd/CardMd';
 import SectionHeader from '@/components/ShareComp/SectionHeader/SectionHeader';
-import React from 'react';
 
 const Services = () => {
     const headerData = {
@@ -67,7 +66,7 @@ const Services = () => {
     ]
     return (
         <div className='py-10'>
-            <div className='flex flex-col lg:flex-row justify-between lg:items-end gap-5'>
+            <div data-aos="fade-up" className='flex flex-col lg:flex-row justify-between lg:items-end gap-5'>
                 <SectionHeader headerData={headerData} />
                 <p className='w-full lg:w-1/2 text-center lg:text-left'>Experience growth through innovative digital marketing designed to reach, inspire, and deliver results.</p>
             </div>

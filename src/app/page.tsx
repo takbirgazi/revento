@@ -1,3 +1,6 @@
+"use client"
+import AOS from 'aos';
+import { useEffect } from 'react';
 import Faq from "@/components/HomeComp/Faq/Faq";
 import Hero from "@/components/HomeComp/Hero/Hero";
 import Highlights from "@/components/HomeComp/Highlights/Highlights";
@@ -9,6 +12,14 @@ import Testimonials from "@/components/HomeComp/Testimonials/Testimonials";
 import WhyChoose from "@/components/HomeComp/WhyChoose/WhyChoose";
 
 export default function Home() {
+  useEffect(() => {
+    AOS.init({
+      duration: 600,
+      easing: 'ease-in-out',
+      once: true
+    })
+  }, []);
+
   return (
     <div>
       <Hero />

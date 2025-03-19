@@ -6,7 +6,7 @@ import HeroBottom from "./HeroBottom/HeroBottom";
 const Hero = () => {
     return (
         <div className="bg-primaryBg">
-            <div className="container mx-auto pt-20">
+            <div data-aos="fade-up" className="container mx-auto pt-20">
                 <p className="text-white text-center font-medium md:text-base text-sm py-6 lg:py-2">❤️  #1 Popular Digital Marketing Agency</p>
 
                 <div className="max-w-4xl mx-auto lg:leading-30 leading-12">

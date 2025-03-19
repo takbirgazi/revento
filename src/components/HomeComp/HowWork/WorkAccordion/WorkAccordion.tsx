@@ -33,7 +33,7 @@ const WorkAccordion: React.FC<AccordionDataType> = ({ accordionData }) => {
                 </div>
             </div>
             {
-                isOpen && <div className="w-11/12 mx-auto -mb-4">
+                isOpen && <div data-aos="fade-down" data-aos-once="false" className="w-11/12 mx-auto -mb-4">
                     <figure>
                         <Image className="w-full h-full" src={accordionData.imageUrl} height={450} width={1024} alt={accordionData.title} />
                     </figure>

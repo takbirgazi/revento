@@ -5,7 +5,7 @@ import Image from 'next/image';
 const Highlights = () => {
     return (
         <div className="p-4 flex justify-center items-center">
-            <div className="relative p-8 rounded-4xl bg-[#9d89fc] md:w-10/12">
+            <div data-aos="fade-up" className="relative p-8 rounded-4xl bg-[#9d89fc] md:w-10/12">
                 <h2 className="max-w-3xl mx-auto font-anton text-center lg:leading-24 text-xl md:text-7xl text-white py-9">Redefining Digital Impact with Innovative Strategies That Drive Real Results!</h2>
                 <div className="flex flex-col md:flex-row justify-between items-center gap-4 lg:pt-4">
                     <p className="md:max-w-60 text-sm md:text-base text-white">Boost your website’s visibility and attract organic traffic </p>

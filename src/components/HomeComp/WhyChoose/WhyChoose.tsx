@@ -37,14 +37,14 @@ const WhyChoose = () => {
             </div>
             <div className='flex flex-col lg:flex-row gap-4 justify-between pt-20'>
                 <div className='w-full lg:w-1/4 flex flex-col justify-around'>
-                    <div className='flex flex-col lg:items-end'>
+                    <div data-aos="fade-up" className='flex flex-col lg:items-end'>
                         <h4 className="text-2xl text-left lg:text-left lg:text-3xl lg:pb-5 font-anton">Proven Expertise</h4>
                         <p className='text-left lg:text-right py-2 lg:py-5 max-w-96'>With years of experience and a track record of delivering measurable results, we craft strategies that work.</p>
                         <CardSm cardData={cardOne} />
                     </div>
                     <div className='lg:block hidden'></div>
                 </div>
-                <div className='w-full lg:w-2/4 relative'>
+                <div data-aos="fade-up" className='w-full lg:w-2/4 relative'>
                     <figure>
                         <Image className='w-full h-full' src="https://framerusercontent.com/images/lRUVMB1hqLBKktxpxOV2NWUMVk.png?scale-down-to=1024" height={950} width={450} alt='Feature' />
                     </figure>
@@ -55,7 +55,7 @@ const WhyChoose = () => {
                         <Image className=" w-[70px]" src="https://framerusercontent.com/images/VJfhCUd5WwmzhreVEXOcwKQ8Zk8.png" alt="Icon" height={200} width={200} />
                     </figure>
                 </div>
-                <div className='w-full lg:w-1/4 flex flex-col justify-around'>
+                <div data-aos="fade-up" className='w-full lg:w-1/4 flex flex-col justify-around'>
                     <div className='lg:block hidden'></div>
                     <div>
                         <h4 className="text-2xl text-left lg:text-left lg:text-3xl lg:pb-5 font-anton">Data-Driven Approach</h4>

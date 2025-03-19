@@ -15,7 +15,7 @@ const Faq = () => {
                 <div className="lg:w-1/2 w-full">
                     <SectionHeader headerData={headerData} />
                 </div>
-                <p className="py-5 max-w-md text-lg text-center md:text-left">Everything You Need to Know About Revento, We have Answers to Your Questions About Revento’s Services and Approach.</p>
+                <p data-aos="fade-up" className="py-5 max-w-md text-lg text-center md:text-left">Everything You Need to Know About Revento, We have Answers to Your Questions About Revento’s Services and Approach.</p>
             </div>
             <div className="w-full md:w-1/2">
                 <MyAccordion />

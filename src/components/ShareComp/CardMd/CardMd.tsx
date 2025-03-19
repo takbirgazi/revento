@@ -16,7 +16,7 @@ interface CardDataType {
 
 const CardMd: React.FC<CardDataType> = ({ cardData }) => {
     return (
-        <div style={{ backgroundColor: cardData.bgColor }} className={`relative rounded-3xl overflow-hidden p-10 min-h-72`}>
+        <div data-aos="fade-up" style={{ backgroundColor: cardData.bgColor }} className={`relative rounded-3xl overflow-hidden p-10 min-h-72`}>
             <h2 className="text-xl lg:text-4xl pb-2 font-anton text-white">{cardData.title}</h2>
             <p className="w-11/12 text-sm leading-6 text-white">{cardData.desc}</p>
 
