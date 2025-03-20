@@ -1,4 +1,3 @@
-import AboutHero from '@/components/AboutComp/AboutHero/AboutHero';
 import AboutUs from '@/components/AboutComp/AboutUs/AboutUs';
 import Counter from '@/components/AboutComp/Counter/Counter';
 import MissionAndVision from '@/components/AboutComp/MissionAndVision/MissionAndVision';
@@ -6,12 +5,21 @@ import OurTeam from '@/components/AboutComp/OurTeam/OurTeam';
 import OurValues from '@/components/AboutComp/OurValues/OurValues';
 import Highlights2 from '@/components/HomeComp/Highlights2/Highlights2';
 import Testimonials from '@/components/HomeComp/Testimonials/Testimonials';
+import HeroCustom from '@/components/ShareComp/HeroCustom/HeroCustom';
 import Image from 'next/image';
 
 const page = () => {
+    const heroData = {
+        topHeader: "about us",
+        mainHeader: "Discover Revento",
+        desc: "Experience growth through innovative digital marketing designed to reach, inspire, and deliver results.",
+        topHeaderColor: "#ff4f3f",
+        mainHeaderColor: "white",
+    }
+
     return (
         <div>
-            <AboutHero />
+            <HeroCustom heroData={heroData} />
             <div className="container mx-auto px-4 md:pb-20">
                 <h2 className='max-w-4xl mx-auto py-10 text-2xl lg:text-7xl font-medium uppercase font-anton text-center'>
                     <span className=" text-[#051a2f] tracking-tight">At Revento, we believe that every brand has the potential </span>

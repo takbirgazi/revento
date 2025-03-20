@@ -9,12 +9,18 @@ interface MenuType {
     links: {
         id: number,
         title: string,
-        slag: string
+        slag: string,
+        subMenu?: {
+            id: number,
+            title: string,
+            slag: string,
+        }[]
     }[]
 }
 
 const MobileMenu: React.FC<MenuType> = ({ links }) => {
     const [isActive, setIsActive] = useState(false);
+
     return (
         <div className="block md:hidden">
             <div onClick={() => setIsActive(isActive => !isActive)} className="flex flex-col gap-2 justify-center items-center cursor-pointer">
@@ -26,11 +32,16 @@ const MobileMenu: React.FC<MenuType> = ({ links }) => {
             </div>
             {
                 isActive && <div className={`md:hidden flex flex-col justify-center gap-5 absolute w-full left-0 top-[65px] transition-all duration-500 overflow-hidden`}>
-                    <div className="w-11/12 mx-auto grid grid-cols-2 flex-col justify-center gap-4  bg-white rounded-lg p-5">
-                        {
-                            links.map(menu => <Link className=" text-gray-800 text-xs uppercase" href={menu.slag} key={menu.id}>{menu.title}</Link>)
-                        }
-                    </div>
+                    {
+                        links.map(menu => <div className="w-11/12 mx-auto grid grid-cols-2 flex-col justify-center gap-4  bg-white rounded-lg p-5" key={menu.id}>
+                            {
+                                menu?.subMenu ?
+                                    menu?.subMenu.map(menu => <Link key={menu.id} className=" text-gray-800 text-xs uppercase" href={menu.slag}>{menu.title}</Link>)
+                                    :
+                                    <Link className=" text-gray-800 text-xs uppercase" href={menu.slag}>{menu.title}</Link>
+                            }
+                        </div>)
+                    }
                 </div>
             }
 
