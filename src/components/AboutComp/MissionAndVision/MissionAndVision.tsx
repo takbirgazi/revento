@@ -13,7 +13,7 @@ const MissionAndVision = () => {
                     <p>With years of experience and a track record of delivering measurable results, we craft strategies that work. From startups to established enterprises, we’ve helped businesses across industries thrive in the digital landscape.</p>
                 </div>
                 <div className="flex py-10">
-                    <Link href="/" className="group bg-[#051a2f] hover:bg-[#9d89fc] text-white hover:text-white font-bold rounded-full px-3 md:px-7 py-4 md:py-6 uppercase text-sm lg:text-lg flex items-center gap-2 transition-all duration-300" >
+                    <Link href="/contact" className="group bg-[#051a2f] hover:bg-[#9d89fc] text-white hover:text-white font-bold rounded-full px-3 md:px-7 py-4 md:py-6 uppercase text-sm lg:text-lg flex items-center gap-2 transition-all duration-300" >
                         <span>Get in touch</span>
                         <span className="relative h-4 w-5 lg:h-5 overflow-hidden">
                             <FaArrowRight className="absolute top-0 group-hover:translate-x-8 text-[#051a2f] transition-all duration-500" />

@@ -76,7 +76,7 @@ const Hero = () => {
                 </div>
                 <p className="text-center text-white max-w-xl mx-auto py-5">Experience growth through innovative digital marketing designed to reach, inspire, and deliver results.</p>
                 <div className="flex justify-center items-center pb-5">
-                    <CustomButton link="/" title="get in touch" />
+                    <CustomButton link="/contact" title="get in touch" />
                 </div>
 
                 <HeroBottom />

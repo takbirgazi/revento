@@ -16,7 +16,7 @@ const Highlights2 = () => {
                     </div>
                 </h2>
                 <div className="flex flex-col md:flex-row justify-center items-center lg:pt-20">
-                    <CustomButton link="/" title="get in touch" />
+                    <CustomButton link="/contact" title="get in touch" />
                 </div>
                 <div className="absolute top-0 left-2/4 flex justify-center items-center">
                     <figure className="h-5 w-5 md:h-20 md:w-20 rotate-180">

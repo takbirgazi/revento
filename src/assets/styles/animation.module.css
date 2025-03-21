@@ -119,3 +119,28 @@
         transform: rotate(-360deg);
     }
 }
+
+
+/* contact Css */
+
+.contactMask {
+    background: #051a2f;
+    width: 30px;
+    height: 30px;
+    -webkit-mask: url(https://framerusercontent.com/images/YJJUhwYD82Nvq7zjhSAf6Y9e0k.svg) no-repeat center;
+    mask: url(https://framerusercontent.com/images/YJJUhwYD82Nvq7zjhSAf6Y9e0k.svg) no-repeat center;
+}
+.contactMask2 {
+    background: #051a2f;
+    width: 30px;
+    height: 30px;
+    -webkit-mask: url(https://framerusercontent.com/images/GAskLMgtJQVT0otA40gyxUzU9MQ.svg) no-repeat center;
+    mask: url(https://framerusercontent.com/images/GAskLMgtJQVT0otA40gyxUzU9MQ.svg) no-repeat center;
+}
+.contactMask3 {
+    background: #051a2f;
+    width: 30px;
+    height: 30px;
+    -webkit-mask: url(https://framerusercontent.com/images/q2otjfANu5wjlysduT2vMi1R8.svg) no-repeat center;
+    mask: url(https://framerusercontent.com/images/q2otjfANu5wjlysduT2vMi1R8.svg) no-repeat center;
+}

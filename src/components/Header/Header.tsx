@@ -51,6 +51,31 @@ const Header = () => {
                     title: "Service",
                     slag: "/service"
                 },
+                {
+                    id: 9,
+                    title: "404",
+                    slag: "/404"
+                },
+                {
+                    id: 10,
+                    title: "Work Details",
+                    slag: "/work-details"
+                },
+                {
+                    id: 11,
+                    title: "Contact Us",
+                    slag: "/contact"
+                },
+                {
+                    id: 13,
+                    title: "Blog",
+                    slag: "/blog"
+                },
+                {
+                    id: 14,
+                    title: "How We Work",
+                    slag: "/how-we-work"
+                },
             ]
         },
         {
@@ -67,7 +92,7 @@ const Header = () => {
 
     return (
         <div className="bg-primaryBg md:relative sticky top-0 z-40">
-            <nav className="container mx-auto max-w-3xl lg:py-7 py-3 lg:px-0 px-5 flex items-center justify-between gap-16">
+            <nav className="container mx-auto lg:py-7 py-3 px-5 flex items-center justify-between gap-16">
                 <div className="flex items-center gap-8">
                     <Link href="/">
                         <figure>
@@ -98,7 +123,7 @@ const Header = () => {
                     </div>
                 </div>
                 <div className="hidden md:flex justify-center items-center">
-                    <CustomButton link="/" title="Get in touch" />
+                    <CustomButton link="/contact" title="Get in touch" />
                 </div>
                 <MobileMenu links={links} />
             </nav>
