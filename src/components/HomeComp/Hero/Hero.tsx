@@ -1,12 +1,22 @@
+"use client"
+import AOS from 'aos';
+import { useEffect } from 'react';
 import CustomButton from "@/components/ShareComp/CustomButton/CustomButton";
 import Image from "next/image";
 import styles from "@/assets/styles/animation.module.css"
 import HeroBottom from "./HeroBottom/HeroBottom";
 
 const Hero = () => {
+    useEffect(() => {
+        AOS.init({
+            duration: 600,
+            easing: 'ease-in-out',
+            once: true
+        })
+    }, []);
     return (
         <div className="bg-primaryBg">
-            <div data-aos="fade-up" className="container mx-auto pt-20">
+            <div data-aos="fade-up" className="container mx-auto max-w-[1280px] pt-20">
                 <p className="text-white text-center font-medium md:text-base text-sm py-6 lg:py-2">❤️  #1 Popular Digital Marketing Agency</p>
 
                 <div className="max-w-4xl mx-auto lg:leading-30 leading-12">

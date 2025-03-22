@@ -1,3 +1,6 @@
+"use client"
+import AOS from 'aos';
+import { useEffect } from 'react';
 import Image from "next/image";
 import styles from "@/assets/styles/animation.module.css"
 
@@ -12,11 +15,18 @@ interface HeroDataType {
 }
 
 const HeroCustom: React.FC<HeroDataType> = ({ heroData }) => {
+    useEffect(() => {
+        AOS.init({
+            duration: 600,
+            easing: 'ease-in-out',
+            once: true
+        })
+    }, []);
     return (
         <div>
             <div className="bg-primaryBg">
-                <div data-aos="fade-up" className="container mx-auto pt-20">
-                    <h2 style={{ color: heroData.topHeaderColor}} className="text-2xl text-center uppercase lg:text-3xl pb-5 font-anton">{heroData.topHeader}</h2>
+                <div data-aos="fade-up" className="container mx-auto max-w-[1280px] pt-20">
+                    <h2 style={{ color: heroData.topHeaderColor }} className="text-2xl text-center uppercase lg:text-3xl pb-5 font-anton">{heroData.topHeader}</h2>
                     <h2 style={{ color: heroData.mainHeaderColor }} className="w-fit mx-auto relative text-center text-[40px] lg:text-[100px] uppercase font-medium tracking-tight font-anton">
                         {heroData.mainHeader}
                         {/* Absolute Data */}

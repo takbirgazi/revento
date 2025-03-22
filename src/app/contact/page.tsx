@@ -16,7 +16,7 @@ const page = () => {
     return (
         <div>
             <HeroCustom heroData={heroData} />
-            <div className="container mx-auto px-4 md:pb-20">
+            <div className="container mx-auto max-w-[1280px] px-4 md:pb-20">
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-5 pt-12">
                     <div className="rounded-3xl bg-[#e3eef8] p-10 py-24 relative">
                         <div className="flex justify-center items-center py-5"> <span className={styles.contactMask}></span></div>

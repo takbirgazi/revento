@@ -17,7 +17,7 @@ const page = () => {
     return (
         <div>
             <HeroCustom heroData={heroData} />
-            <div className="container mx-auto px-5">
+            <div className="container mx-auto max-w-[1280px] px-5">
                 <div className="py-12 flex flex-col lg:flex-row justify-baseline items-center gap-5">
                     <div className='w-full lg:w-1/2'>
                         <h2 className='py-10 text-2xl lg:text-7xl font-medium uppercase font-anton'>

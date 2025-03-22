@@ -8,7 +8,7 @@ import Link from "next/link";
 
 const Footer = () => {
     return (
-        <div className="container mx-auto px-4 flex flex-col md:flex-row gap-4 py-10">
+        <div className="container mx-auto max-w-[1280px] px-4 flex flex-col md:flex-row gap-4 py-10">
             <div className="w-full md:w-2/3">
                 <figure>
                     <Image src={logo} alt="Logo" height={400} width={600} />

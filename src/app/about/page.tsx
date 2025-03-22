@@ -20,7 +20,7 @@ const page = () => {
     return (
         <div>
             <HeroCustom heroData={heroData} />
-            <div className="container mx-auto px-4 md:pb-20">
+            <div className="container mx-auto max-w-[1280px] px-4 md:pb-20">
                 <h2 className='max-w-4xl mx-auto py-10 text-2xl lg:text-7xl font-medium uppercase font-anton text-center'>
                     <span className=" text-[#051a2f] tracking-tight">At Revento, we believe that every brand has the potential </span>
                     <span className=" text-[#828d97] tracking-tight"> to achieve extraordinary results</span>

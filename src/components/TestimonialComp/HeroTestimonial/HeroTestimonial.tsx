@@ -4,7 +4,7 @@ import styles from "@/assets/styles/animation.module.css"
 const HeroTestimonial = () => {
     return (
         <div className="bg-primaryBg">
-            <div data-aos="fade-up" className="container mx-auto pt-20">
+            <div data-aos="fade-up" className="container mx-auto max-w-[1280px] pt-20">
                 <h2 className="text-2xl text-center uppercase text-[#e9fa49] lg:text-3xl pb-5 font-anton">testimonials</h2>
                 <h2 className="w-fit mx-auto relative text-center text-white text-[40px] lg:text-[100px] uppercase font-medium tracking-tight font-anton">What Our Clients Say
                     {/* Absolute Data */}

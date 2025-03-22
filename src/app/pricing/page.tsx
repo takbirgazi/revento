@@ -66,7 +66,7 @@ const page = () => {
     return (
         <div>
             <HeroCustom heroData={heroData} />
-            <div className="container mx-auto px-4 md:pb-20">
+            <div className="container mx-auto max-w-[1280px] px-4 md:pb-20">
                 <h2 className='max-w-5xl mx-auto py-10 text-2xl lg:text-7xl font-medium uppercase font-anton text-center'>
                     <span className=" text-[#051a2f] tracking-tight">affordable pricing plans for </span>
                     <span className=" text-[#828d97] tracking-tight"> all your digital marketing services</span>
