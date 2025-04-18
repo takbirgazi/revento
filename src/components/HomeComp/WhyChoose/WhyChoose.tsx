@@ -33,7 +33,7 @@ const WhyChoose = () => {
         <div className='py-10'>
             <div className='flex flex-col lg:flex-row justify-between lg:items-end gap-5'>
                 <SectionHeader headerData={headerData} />
-                <p className='w-full lg:w-1/2 text-center lg:text-left'>Experience growth through innovative digital marketing designed to reach, inspire, and deliver results.</p>
+                <p className='w-full lg:w-1/2 text-center lg:text-left'>Unlock growth with powerful digital strategies that connect, convert, and scale.</p>
             </div>
             <div className='flex flex-col lg:flex-row gap-4 justify-between pt-20'>
                 <div className='w-full lg:w-1/4 flex flex-col justify-around'>

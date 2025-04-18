@@ -12,7 +12,7 @@ const page = () => {
     const heroData = {
         topHeader: "about us",
         mainHeader: "Discover Revento",
-        desc: "Experience growth through innovative digital marketing designed to reach, inspire, and deliver results.",
+        desc: "Unlock growth with powerful digital strategies that connect, convert, and scale.",
         topHeaderColor: "#ff4f3f",
         mainHeaderColor: "white",
     }

@@ -38,7 +38,7 @@ const OurTeam = () => {
                         <SectionHeader headerData={headerData} />
                     </div>
                 </div>
-                <p className='w-full lg:w-1/3 text-center lg:text-left'>Experience growth through innovative digital marketing designed to reach, inspire, and deliver results.</p>
+                <p className='w-full lg:w-1/3 text-center lg:text-left'>Unlock growth with powerful digital strategies that connect, convert, and scale.</p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 ga-5 py-10">
 

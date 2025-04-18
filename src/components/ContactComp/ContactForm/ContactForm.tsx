@@ -17,7 +17,7 @@ const ContactForm = () => {
                         <SectionHeader headerData={headerData} />
                     </div>
                 </div>
-                <p className='w-full lg:w-1/3 text-center lg:text-left'>Experience growth through innovative digital marketing designed to reach, inspire, and deliver results.</p>
+                <p className='w-full lg:w-1/3 text-center lg:text-left'>Unlock growth with powerful digital strategies that connect, convert, and scale.</p>
             </div>
             <div className="py-9">
                 <form className="flex flex-col gap-20 pt-10" action="">

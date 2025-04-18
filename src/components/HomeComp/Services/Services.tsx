@@ -11,8 +11,8 @@ const Services = () => {
     const cardData = [
         {
             id: 1,
-            title: "Search Engine Optimization",
-            desc: "Boost your website’s visibility and attract organic traffic with SEO tailored to your business goals.",
+            title: "Brand strategy & planning",
+            desc: "Build a strong brand with smart planning, clear messaging, and a look your audience will trust.",
             link: "/",
             bgColor: "#ff8f27",
             topImageLink: "https://framerusercontent.com/images/HaTeCnedqptj5oZx1ZHkM2pcbZg.svg",
@@ -20,8 +20,8 @@ const Services = () => {
         },
         {
             id: 2,
-            title: "Content Marketing",
-            desc: "Enhance your brand’s online presence and drive engagement with a strategy customized to your needs.",
+            title: "Website Development",
+            desc: "Create fast, user-friendly websites that boost engagement and work smoothly across all devices.",
             link: "/",
             bgColor: "#9d89fc",
             topImageLink: "https://framerusercontent.com/images/mP6yDpIu2HzOfRG2Qlr2z6O28O0.svg",
@@ -29,7 +29,7 @@ const Services = () => {
         },
         {
             id: 3,
-            title: "Social Media Marketing",
+            title: "SEO",
             desc: "Grow your audience and increase conversions with targeted digital marketing solutions.",
             link: "/",
             bgColor: "#ff4f3f",
@@ -38,7 +38,7 @@ const Services = () => {
         },
         {
             id: 4,
-            title: "Email Marketing",
+            title: "Content marketing",
             desc: "Maximize your online reach and generate leads with content tailored to your audience.",
             link: "/",
             bgColor: "#ff4f3f",
@@ -47,8 +47,8 @@ const Services = () => {
         },
         {
             id: 5,
-            title: "Influencer Marketing",
-            desc: "Elevate your business with a social media strategy designed for your growth objectives.",
+            title: "Design service",
+            desc: "Make your brand stand out with eye-catching logos, banners, and visuals tailored to your style.",
             link: "/",
             bgColor: "#1cb785",
             topImageLink: "https://framerusercontent.com/images/HaTeCnedqptj5oZx1ZHkM2pcbZg.svg",
@@ -56,19 +56,46 @@ const Services = () => {
         },
         {
             id: 6,
-            title: "Analytics and Reporting",
+            title: "Social media marketing",
             desc: "Expand your customer base and improve visibility with data-driven advertising campaigns.",
             link: "/",
             bgColor: "#051a2f",
             topImageLink: "https://framerusercontent.com/images/7os4g4ruRwOonodXRETIWnxw1M.svg",
             bottomImageLink: "https://framerusercontent.com/images/hGSozs8NwWZ077Sm2JLNNdlBwQw.svg"
         },
+        {
+            id: 7,
+            title: "Lead generation",
+            desc: "Get quality leads with proven strategies that connect you to the right customers, faster.",
+            link: "/",
+            bgColor: "#9d89fc",
+            topImageLink: "https://framerusercontent.com/images/mP6yDpIu2HzOfRG2Qlr2z6O28O0.svg",
+            bottomImageLink: "https://framerusercontent.com/images/idbDbcyPRv2S59MVMgWh9L7LA.svg"
+        },
+        {
+            id: 8,
+            title: "Email marketing",
+            desc: "Expand your customer base and improve visibility with data-driven advertising campaigns.",
+            link: "/",
+            bgColor: "#051a2f",
+            topImageLink: "https://framerusercontent.com/images/7os4g4ruRwOonodXRETIWnxw1M.svg",
+            bottomImageLink: "https://framerusercontent.com/images/hGSozs8NwWZ077Sm2JLNNdlBwQw.svg"
+        },
+        {
+            id: 9,
+            title: "Analytics & Reporting",
+            desc: "Elevate your business with a social media strategy designed for your growth objectives.",
+            link: "/",
+            bgColor: "#1cb785",
+            topImageLink: "https://framerusercontent.com/images/HaTeCnedqptj5oZx1ZHkM2pcbZg.svg",
+            bottomImageLink: "https://framerusercontent.com/images/idbDbcyPRv2S59MVMgWh9L7LA.svg"
+        },
     ]
     return (
         <div className='py-10'>
             <div data-aos="fade-up" className='flex flex-col lg:flex-row justify-between lg:items-end gap-5'>
                 <SectionHeader headerData={headerData} />
-                <p className='w-full lg:w-1/2 text-center lg:text-left'>Experience growth through innovative digital marketing designed to reach, inspire, and deliver results.</p>
+                <p className='w-full lg:w-1/2 text-center lg:text-left'>Unlock growth with powerful digital strategies that connect, convert, and scale.</p>
             </div>
             <div className='py-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
                 {

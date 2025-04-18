@@ -13,7 +13,7 @@ const Footer = () => {
                 <figure>
                     <Image src={logo} alt="Logo" height={400} width={600} />
                 </figure>
-                <p className="py-5 max-w-lg">Experience growth through innovative digital marketing designed to reach, inspire, and deliver results.</p>
+                <p className="py-5 max-w-lg">Unlock growth with powerful digital strategies that connect, convert, and scale.</p>
                 <div className="flex gap-4 items-center">
                     <FaXTwitter className="text-lg" />
                     <a href="https://www.facebook.com/motionmarkdigitalagency" target="_blank" rel="noopener noreferrer"> <FaFacebook className="text-lg" /> </a>
