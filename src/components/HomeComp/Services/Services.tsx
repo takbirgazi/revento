@@ -5,7 +5,7 @@ const Services = () => {
     const headerData = {
         topHeading: "Our Services!",
         topHeadingColor: "#ff4f3f",
-        heading: "Services Designed to Drive Real Results",
+        heading: "Services Tailored for Your Success",
         headingColor: "#051a2f"
     }
     const cardData = [

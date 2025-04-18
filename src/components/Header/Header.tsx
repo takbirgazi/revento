@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import logo from "@/assets/images/logo.png";
+import logo from "@/assets/images/logo-white.png";
 import CustomButton from "../ShareComp/CustomButton/CustomButton";
 import MobileMenu from "./MobileMenu/MobileMenu";
 

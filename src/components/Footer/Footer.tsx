@@ -1,8 +1,8 @@
 import Image from "next/image";
-import logo from "@/assets/images/logo.svg";
+import logo from "@/assets/images/logo-black.png";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa6";
-import { FaFacebook } from "react-icons/fa";
+import { FaFacebook, FaInstagram } from "react-icons/fa";
 import { FaAngleRight } from "react-icons/fa6";
 import Link from "next/link";
 
@@ -16,8 +16,9 @@ const Footer = () => {
                 <p className="py-5 max-w-lg">Experience growth through innovative digital marketing designed to reach, inspire, and deliver results.</p>
                 <div className="flex gap-4 items-center">
                     <FaXTwitter className="text-lg" />
-                    <FaFacebook className="text-lg" />
+                    <a href="https://www.facebook.com/motionmarkdigitalagency" target="_blank" rel="noopener noreferrer"> <FaFacebook className="text-lg" /> </a>
                     <FaLinkedin className="text-lg" />
+                    <a href="https://www.instagram.com/motionmarkdigitalagency" target="_blank" rel="noopener noreferrer"> <FaInstagram className="text-lg" /> </a>
                 </div>
             </div>
             <div className="w-full md:w-1/3 flex flex-col md:items-end md:justify-end">

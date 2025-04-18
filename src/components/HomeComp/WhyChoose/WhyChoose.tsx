@@ -7,7 +7,7 @@ const WhyChoose = () => {
     const headerData = {
         topHeading: "Why choose us!",
         topHeadingColor: "#ff4f3f",
-        heading: "Why Revento Is the Trusted Choice",
+        heading: "Trusted for Design, Development, and Branding",
         headingColor: "#051a2f"
     }
     const cardOne = {

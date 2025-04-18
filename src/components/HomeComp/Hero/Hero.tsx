@@ -17,7 +17,7 @@ const Hero = () => {
     return (
         <div className="bg-primaryBg">
             <div data-aos="fade-up" className="container mx-auto max-w-[1280px] pt-20">
-                <p className="text-white text-center font-medium md:text-base text-sm py-6 lg:py-2">❤️  #1 Popular Digital Marketing Agency</p>
+                <p className="text-white text-center font-medium md:text-base text-sm py-6 lg:py-2">❤️  Trusted by startups, Powered by results</p>
 
                 <div className="max-w-4xl mx-auto lg:leading-30 leading-12">
                     <div className="flex justify-center">
@@ -67,7 +67,7 @@ const Hero = () => {
                                     <Image className="h-full w-full" src="https://framerusercontent.com/images/zF24pyp35mOT35C0XWrgS7ZIoek.svg" height={80} width={150} alt="Bounse" />
                                 </figure>
                             </div>
-                            <span className="text-[#ff8f27] font-anton">Impact</span>
+                            <span className="text-[#ff8f27] font-anton">Real-</span>
                             <div className="absolute top-0 -left-[2%]">
                                 <figure className={`h-5 w-5 lg:h-10 lg:w-10`}>
                                     <Image className="h-full w-full" src="https://framerusercontent.com/images/Mfur6LVh1A1lVv5s9OYSbdNovE.svg" height={80} width={80} alt="Bounse" />
@@ -82,9 +82,9 @@ const Hero = () => {
                         </h2>
                     </div>
 
-                    <h2 className="text-center text-white text-[40px] lg:text-[100px] uppercase font-medium tracking-tight font-anton">Effectively</h2>
+                    <h2 className="text-center text-white text-[40px] lg:text-[100px] uppercase font-medium tracking-tight font-anton">World Impact</h2>
                 </div>
-                <p className="text-center text-white max-w-xl mx-auto py-5">Experience growth through innovative digital marketing designed to reach, inspire, and deliver results.</p>
+                <p className="text-center text-white max-w-xl mx-auto py-5">Unlock growth with powerful digital strategies that connect, convert, and scale.</p>
                 <div className="flex justify-center items-center pb-5">
                     <CustomButton link="/contact" title="get in touch" />
                 </div>
