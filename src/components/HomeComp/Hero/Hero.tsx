@@ -18,7 +18,7 @@ const Hero = () => {
     return (
         <div className="bg-primaryBg">
             <div data-aos="fade-up" className="container mx-auto max-w-[1280px] pt-20">
-                <p className="text-white text-center font-medium md:text-base text-sm py-6 lg:py-2">❤️  Trusted by startups, Powered by results</p>
+                <p className="text-white text-center font-medium md:text-base text-sm py-6 lg:py-2">Fastest Growing Digital Agency in Bangladesh</p>
 
                 <div className="max-w-4xl mx-auto lg:leading-30 leading-12">
                     <div className="flex justify-center">

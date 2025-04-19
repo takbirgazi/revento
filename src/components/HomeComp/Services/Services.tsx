@@ -12,7 +12,7 @@ const Services = () => {
         {
             id: 1,
             title: "Brand strategy & planning",
-            desc: "Build a strong brand with smart planning, clear messaging, and a look your audience will trust.",
+            desc: "Turn your idea into a sustainable brand—with guidance from a certified brand strategist.",
             link: "/",
             bgColor: "#ff8f27",
             topImageLink: "https://framerusercontent.com/images/HaTeCnedqptj5oZx1ZHkM2pcbZg.svg",
@@ -21,7 +21,7 @@ const Services = () => {
         {
             id: 2,
             title: "Website Development",
-            desc: "Create fast, user-friendly websites that boost engagement and work smoothly across all devices.",
+            desc: "Get a fast, user-friendly website that boosts engagement and works perfectly on any device.",
             link: "/",
             bgColor: "#9d89fc",
             topImageLink: "https://framerusercontent.com/images/mP6yDpIu2HzOfRG2Qlr2z6O28O0.svg",
@@ -30,7 +30,7 @@ const Services = () => {
         {
             id: 3,
             title: "SEO",
-            desc: "Grow your audience and increase conversions with targeted digital marketing solutions.",
+            desc: "Get better Google rankings, more traffic, and long-term growth with smart SEO.",
             link: "/",
             bgColor: "#ff4f3f",
             topImageLink: "https://framerusercontent.com/images/7os4g4ruRwOonodXRETIWnxw1M.svg",
@@ -39,16 +39,16 @@ const Services = () => {
         {
             id: 4,
             title: "Content marketing",
-            desc: "Maximize your online reach and generate leads with content tailored to your audience.",
+            desc: "Grow your audience and generate more leads with content built for your ideal customer.",
             link: "/",
-            bgColor: "#ff4f3f",
+            bgColor: "#051A2F",
             topImageLink: "https://framerusercontent.com/images/7os4g4ruRwOonodXRETIWnxw1M.svg",
             bottomImageLink: "https://framerusercontent.com/images/hGSozs8NwWZ077Sm2JLNNdlBwQw.svg"
         },
         {
             id: 5,
             title: "Design service",
-            desc: "Make your brand stand out with eye-catching logos, banners, and visuals tailored to your style.",
+            desc: "Elevate your brand with stunning, custom designs—logos, banners, and visuals tailored to your business.",
             link: "/",
             bgColor: "#1cb785",
             topImageLink: "https://framerusercontent.com/images/HaTeCnedqptj5oZx1ZHkM2pcbZg.svg",
@@ -57,16 +57,16 @@ const Services = () => {
         {
             id: 6,
             title: "Social media marketing",
-            desc: "Expand your customer base and improve visibility with data-driven advertising campaigns.",
+            desc: "Grow your brand with interesting posts and smart ads—using both free and paid ways to get real results.",
             link: "/",
-            bgColor: "#051a2f",
+            bgColor: "#FF8F27",
             topImageLink: "https://framerusercontent.com/images/7os4g4ruRwOonodXRETIWnxw1M.svg",
             bottomImageLink: "https://framerusercontent.com/images/hGSozs8NwWZ077Sm2JLNNdlBwQw.svg"
         },
         {
             id: 7,
             title: "Lead generation",
-            desc: "Get quality leads with proven strategies that connect you to the right customers, faster.",
+            desc: "Attract potential customers with targeted strategies and smart tools, turning interest into valuable business opportunities.",
             link: "/",
             bgColor: "#9d89fc",
             topImageLink: "https://framerusercontent.com/images/mP6yDpIu2HzOfRG2Qlr2z6O28O0.svg",
@@ -75,18 +75,18 @@ const Services = () => {
         {
             id: 8,
             title: "Email marketing",
-            desc: "Expand your customer base and improve visibility with data-driven advertising campaigns.",
+            desc: "Nurture relationships and drive conversions with personalized email campaigns that speak directly to your audience.",
             link: "/",
-            bgColor: "#051a2f",
+            bgColor: "#FF4F3F",
             topImageLink: "https://framerusercontent.com/images/7os4g4ruRwOonodXRETIWnxw1M.svg",
             bottomImageLink: "https://framerusercontent.com/images/hGSozs8NwWZ077Sm2JLNNdlBwQw.svg"
         },
         {
             id: 9,
             title: "Analytics & Reporting",
-            desc: "Elevate your business with a social media strategy designed for your growth objectives.",
+            desc: "Make informed decisions and track your success with detailed analytics and clear, actionable reports.",
             link: "/",
-            bgColor: "#1cb785",
+            bgColor: "#051A2F",
             topImageLink: "https://framerusercontent.com/images/HaTeCnedqptj5oZx1ZHkM2pcbZg.svg",
             bottomImageLink: "https://framerusercontent.com/images/idbDbcyPRv2S59MVMgWh9L7LA.svg"
         },
@@ -95,7 +95,7 @@ const Services = () => {
         <div className='py-10'>
             <div data-aos="fade-up" className='flex flex-col lg:flex-row justify-between lg:items-end gap-5'>
                 <SectionHeader headerData={headerData} />
-                <p className='w-full lg:w-1/2 text-center lg:text-left'>Unlock growth with powerful digital strategies that connect, convert, and scale.</p>
+                <p className='w-full lg:w-1/2 text-center lg:text-left'>Your Growth. Your Success. Our Strategy.</p>
             </div>
             <div className='py-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
                 {

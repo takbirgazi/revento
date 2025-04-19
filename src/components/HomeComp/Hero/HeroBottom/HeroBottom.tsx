@@ -6,8 +6,8 @@ const HeroBottom = () => {
     const cards = [
         {
             id: 1,
-            title: "350+",
-            desc: "Successful Campaigns Launched Industries",
+            title: "80+",
+            desc: "Successful Campaigns Across Diverse industries",
             link: "/",
             bgColor: "#1cb785",
             topImageLink: "https://framerusercontent.com/images/TnubgyUbK79WUzuRwVKhPKgas.svg",
@@ -15,8 +15,8 @@ const HeroBottom = () => {
         },
         {
             id: 2,
-            title: "67%",
-            desc: "Growth in Conversion Rates on Average",
+            title: "8+",
+            desc: "Startups are growing with Motion Mark",
             link: "/",
             bgColor: "#e9fa49",
             topImageLink: "https://framerusercontent.com/images/TnubgyUbK79WUzuRwVKhPKgas.svg",
@@ -28,8 +28,8 @@ const HeroBottom = () => {
             <div data-aos="fade-up" className="flex flex-col lg:flex-row justify-between gap-4 px-5">
                 <div className="w-full lg:w-1/2">
                     <p className="max-w-[450px] lg:mx-0 mx-auto text-center lg:text-left">
-                        <span className="text-xl lg:text-4xl font-medium uppercase text-white tracking-tighter">5X Achieved ROI on Ad Spend Consistently! Average </span>
-                        <span className="text-xl lg:text-4xl font-medium uppercase text-[#828d97] tracking-tighter"> Increase in ROI for Our Clients.</span>
+                        <span className="text-xl lg:text-4xl font-medium uppercase text-white tracking-tighter">Smart, Scalable Digital Solutions Designed to Deliver ROI </span>
+                        <span className="text-xl lg:text-4xl font-medium uppercase text-[#828d97] tracking-tighter"> We’re in this with you—from strategy to execution.</span>
                     </p>
                 </div>
                 <div className="w-full lg:w-1/2">
@@ -39,7 +39,7 @@ const HeroBottom = () => {
                         }
 
                     </div>
-                    <p className="text-white max-w-lg lg:mx-0 mx-auto text-sm lg:text-left text-center font-extralight">Helping brands thrive with strategic campaigns, creative content, and results-focused marketing precision marketing.</p>
+                    <p className="text-white max-w-lg lg:mx-0 mx-auto text-sm lg:text-left text-center font-extralight">Your brand will grow with strategic campaigns, engaging content, and data-driven digital marketing that delivers real results.</p>
                 </div>
             </div>
             <div className="flex justify-center items-end pt-5 overflow-hidden">

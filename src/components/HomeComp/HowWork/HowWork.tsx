@@ -21,7 +21,7 @@ const HowWork = () => {
             title: "Strategic Planning and Creative Execution",
             desc: "We start by understanding your brand, industry, and audience, ensuring we address your challenges, define goals, and highlight your unique value.",
             imageUrl: "https://framerusercontent.com/images/Jiu8RFow3ViqEyvCVJYIo4gtHM.png?scale-down-to=1024",
-            bgColor: "#e9fa49"
+            bgColor: "#9D89FC"
         },
         {
             id: 3,
