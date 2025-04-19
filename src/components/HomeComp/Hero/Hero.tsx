@@ -5,6 +5,7 @@ import CustomButton from "@/components/ShareComp/CustomButton/CustomButton";
 import Image from "next/image";
 import styles from "@/assets/styles/animation.module.css"
 import HeroBottom from "./HeroBottom/HeroBottom";
+import rotateImage from "@/assets/images/webiste-seal.png";
 
 const Hero = () => {
     useEffect(() => {
@@ -29,8 +30,8 @@ const Hero = () => {
                                 </figure>
                             </div>
                             <div className="absolute -top-[50%] -right-[10%] md:-right-[20%]">
-                                <figure className={`w-8 h-8 md:w-10 md:h-10 lg:h-32 lg:w-32 ${styles.rotateAnim}`}>
-                                    <Image className="h-full w-full" src="https://framerusercontent.com/images/YnrgvKUGMeimEqrFeLCn9dudPjg.png" height={80} width={150} alt="Bounse" />
+                                <figure className={`w-8 h-8 md:w-10 md:h-10 lg:h-32 lg:w-32 ${styles.rotateAnim2}`}>
+                                    <Image className="h-full w-full" src={rotateImage} height={80} width={150} alt="Bounse" />
                                 </figure>
                             </div>
                             <div className="absolute -top-2 right-[15%]">
