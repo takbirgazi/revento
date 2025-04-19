@@ -30,7 +30,7 @@ const Header = () => {
 
     return (
         <div className="bg-primaryBg sticky top-0 z-40">
-            <nav className="container mx-auto max-w-[1280px] lg:py-7 py-3 px-5 flex items-center justify-between gap-16">
+            <nav className="container mx-auto max-w-[1280px] lg:py-2 py-1 px-5 flex items-center justify-between gap-16">
                 <div className="flex items-center gap-8">
                     <Link href="/">
                         <figure>

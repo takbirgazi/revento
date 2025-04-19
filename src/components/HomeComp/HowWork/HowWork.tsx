@@ -1,5 +1,9 @@
 import SectionHeader from "@/components/ShareComp/SectionHeader/SectionHeader";
 import WorkAccordion from "./WorkAccordion/WorkAccordion";
+import image_1 from "@/assets/images/howWeWork/image_1.png";
+import image_2 from "@/assets/images/howWeWork/image_2.png";
+import image_3 from "@/assets/images/howWeWork/image_3.png";
+import image_4 from "@/assets/images/howWeWork/image_4.png";
 
 const HowWork = () => {
     const headerData = {
@@ -11,30 +15,30 @@ const HowWork = () => {
     const accordions = [
         {
             id: 1,
-            title: "Understanding Your Business",
-            desc: "We begin by getting to know your brand, industry, and audience. By understanding your challenges, goals, and unique value, we lay the foundation.",
-            imageUrl: "https://framerusercontent.com/images/W98dxSedZZzAFevUxHy9jSRoBk.png?scale-down-to=1024",
+            title: "We analyze your brand, target audience, and industry landscape.",
+            desc: "By conducting a comprehensive brand audit, audience research, and market analysis, we uncover strengths, challenges, and growth opportunities — setting the stage for strategic transformation.",
+            imageUrl: image_1.src,
             bgColor: "#ff8f27"
         },
         {
             id: 2,
-            title: "Strategic Planning and Creative Execution",
-            desc: "We start by understanding your brand, industry, and audience, ensuring we address your challenges, define goals, and highlight your unique value.",
-            imageUrl: "https://framerusercontent.com/images/Jiu8RFow3ViqEyvCVJYIo4gtHM.png?scale-down-to=1024",
+            title: "We craft tailored strategies that align with your business goals.",
+            desc: "Combining marketing insights with creative development, we shape content, campaigns, and experiences designed to capture attention and convert audiences.",
+            imageUrl: image_2.src,
             bgColor: "#9D89FC"
         },
         {
             id: 3,
-            title: "Collaboration and optimization",
-            desc: "Our process begins with a deep dive into your brand, industry, and audience to uncover challenges, define goals, and craft tailored solutions.",
-            imageUrl: "https://framerusercontent.com/images/sm35Jrqps0QMhfUA1ZIpnlKD0w.png?scale-down-to=1024",
+            title: "Agile workshops to validate ideas and optimize performance.",
+            desc: "From design sprints to user testing, we co-create solutions, gather real-time feedback, and refine your strategy through iterative improvements.",
+            imageUrl: image_3.src,
             bgColor: "#ff4f3f"
         },
         {
             id: 4,
-            title: "Delivering and reporting results",
-            desc: "We learn your brand, industry, and audience to identify challenges, align goals, and establish the groundwork for delivering impactful strategies.",
-            imageUrl: "https://framerusercontent.com/images/ktdmMXWyKkQsQapwFsHuNauO8.png?scale-down-to=1024",
+            title: "Data-driven execution with measurable results.",
+            desc: "We launch, track, and report campaigns with a focus on KPIs, engagement metrics, and business outcomes — laying a clear path for continued growth.",
+            imageUrl: image_4.src,
             bgColor: "#1cb785"
         },
     ]
