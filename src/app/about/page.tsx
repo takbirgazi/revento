@@ -1,4 +1,3 @@
-import AboutUs from '@/components/AboutComp/AboutUs/AboutUs';
 import Counter from '@/components/AboutComp/Counter/Counter';
 import MissionAndVision from '@/components/AboutComp/MissionAndVision/MissionAndVision';
 import OurTeam from '@/components/AboutComp/OurTeam/OurTeam';
@@ -21,13 +20,24 @@ const page = () => {
         <div>
             <HeroCustom heroData={heroData} />
             <div className="container mx-auto max-w-[1280px] px-4 md:pb-20">
-                <h2 className='max-w-4xl mx-auto py-10 text-2xl lg:text-7xl font-medium uppercase font-anton text-center'>
-                    <span className=" text-[#051a2f] tracking-tight">At Revento, we believe that every brand has the potential </span>
-                    <span className=" text-[#828d97] tracking-tight"> to achieve extraordinary results</span>
+                <h2 className='py-10 text-2xl lg:text-7xl font-medium uppercase font-anton text-center'>
+                    <span className=" text-[#051a2f] tracking-tight">Bold Strategy. Timeless Design.</span>
+                    <span className=" text-[#828d97] tracking-tight"> Real Results.</span>
                 </h2>
                 <div>
                     <MissionAndVision />
-                    <AboutUs />
+                    {/* <AboutUs /> */}
+                    <div>
+                        <h1 className="w-full md:w-3/5 text-xl md:text-4xl pb-2 font-anton text-[#051a2f] uppercase">Our Mission</h1>
+                        <div className="flex flex-col gap-4">
+                            <p>To empower brands worldwide with tailored digital strategies, timeless design, and ROI-driven marketing—delivering real growth through creativity, partnership, and precision.</p>
+                        </div>
+
+                        <h1 className="w-full md:w-3/5 text-xl md:text-4xl pb-2 font-anton text-[#051a2f] uppercase mt-10">Our Vision</h1>
+                        <div className="flex flex-col gap-4">
+                            <p>To become one of the world’s most trusted digital agencies—known not just for our results, but for standing beside our clients as <span className="font-semibold">creative allies</span> and <span className="font-semibold">brothers in arms</span> in the fight for digital dominance</p>
+                        </div>
+                    </div>
                     <Counter />
                     <OurValues />
                     <OurTeam />

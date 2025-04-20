@@ -13,7 +13,7 @@ const Counter = () => {
 
                 <div className={`bg-[#ff8f27] relative rounded-3xl overflow-hidden p-5 pt-7 pb-12`}>
                     <div className="flex justify-between">
-                        <h2 className="text-4xl lg:text-8xl tracking-wider font-anton font-bold pb-2 text-white"><CountUp end={100} />+</h2>
+                        <h2 className="text-4xl lg:text-8xl tracking-wider font-anton font-bold pb-2 text-white"><CountUp end={80} />+</h2>
                     </div>
                     <h4 className="text-white text-lg font-bold pb-16">Successful Campaigns</h4>
                     <p className="w-11/12 text-sm leading-6 text-white">Tailored to your business goals and Successful Campaigns delivered across various industries..</p>

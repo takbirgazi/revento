@@ -3,36 +3,36 @@ import Image from "next/image";
 
 const OurValues = () => {
     const headerData = {
-        topHeading: "About Us",
+        topHeading: "",
         topHeadingColor: "#ff4f3f",
-        heading: "our values",
+        heading: "Why we are trusted",
         headingColor: "#051a2f"
     }
 
     const valuesData = [
         {
             id: 1,
-            title: "Innovation",
+            title: "Tailored Strategies",
             imageUrl: 'https://framerusercontent.com/images/RKScM9E9K21WA9TBK4oU66fw830.svg',
-            desc: "Staying ahead with cutting-edge strategies."
+            desc: "Built from scratch for your brand and your market"
         },
         {
             id: 2,
-            title: "Transparency",
+            title: "ROI-First Approach",
             imageUrl: 'https://framerusercontent.com/images/71klQoOMWBfbXDTMUryFsO7EFpQ.svg',
-            desc: "Building trust through open communication."
+            desc: "Our focus is growth that shows up on the bottom line"
         },
         {
             id: 3,
-            title: "Results-Driven:",
+            title: "Creative Meets Strategic",
             imageUrl: 'https://framerusercontent.com/images/XSsqtEXkQlwLQgCVF2KjNesk.svg',
-            desc: "Focusing on measurable outcomes that matter."
+            desc: "A rare combo of storytelling, design, and data"
         },
         {
             id: 4,
-            title: "Collaboration",
+            title: "True Collaboration",
             imageUrl: 'https://framerusercontent.com/images/ZIa3rlTyPod61IyvGV39m3nMGtU.svg',
-            desc: "Partnering with clients for shared success."
+            desc: "You’re not a “client.” You’re a co-strategist"
         }
     ]
 

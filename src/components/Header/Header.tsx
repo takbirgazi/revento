@@ -46,7 +46,7 @@ const Header = () => {
                             </div>
                             )
                         }
-                        <a className="hover:bg-[#fb8d27] px-5 py-1.5 rounded-2xl transition-all duration-500 text-sm font-semibold text-white whitespace-nowrap uppercase border-2 border-transparent hover:border-[#fb8d27] hover:shadow-[0_0_10px_#fb8d27] focus:outline-none focus:ring-2 focus:ring-[#fb8d27]" href="https://contest.motionmark.agency" target="_blank" rel="noopener noreferrer">Contest</a>
+                        <a className="hover:bg-[#fb8d27] px-5 py-1.5 rounded-2xl transition-all duration-500 text-sm font-semibold text-white whitespace-nowrap uppercase border-2 border-transparent hover:border-[#fb8d27] hover:shadow-[0_0_10px_#fb8d27] focus:outline-none ring-2 ring-[#fb8d27]" href="https://contest.motionmark.agency" target="_blank" rel="noopener noreferrer">Contest</a>
                     </div>
                 </div>
                 <div className="hidden lg:flex justify-center items-center">

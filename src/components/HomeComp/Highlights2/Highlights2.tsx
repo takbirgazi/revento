@@ -10,7 +10,7 @@ const Highlights2 = () => {
             <div className="relative p-8 rounded-4xl bg-[#051a2f]">
                 <h2 className="relative md:w-10/12 mx-auto font-anton text-center lg:leading-24 text-xl md:text-7xl text-white py-9 uppercase">You&apos;re not alone in this. Let’s fight your digital battle—side by side
                     {/* absolute data  */}
-                    <div className="absolute md:-bottom-8 md:right-[25%]">
+                    <div className="absolute md:-bottom-3 md:right-[25%]">
                         <figure className={`w-8 h-8 md:w-10 md:h-10 lg:h-25 lg:w-25 ${styles.rotateAnim2}`}>
                             <Image className="h-full w-full" src={rotateImage} height={80} width={150} alt="Bounse" />
                         </figure>
@@ -25,7 +25,7 @@ const Highlights2 = () => {
                     </figure>
                 </div>
                 {/* Absolute data  */}
-                <figure className="absolute top-2/5 -right-[1%] lg:right-[15%]">
+                <figure className="absolute top-3/5 -right-[1%] lg:right-[15%]">
                     <Image className="w-5 md:w-10" src="https://framerusercontent.com/images/UGX0M4SJvLbj68oUJRUrxOJgyc.png" alt="Icon" height={200} width={200} />
                 </figure>
                 <figure className="absolute top-[25%] -left-[1.5%]">
