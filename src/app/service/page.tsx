@@ -1,6 +1,6 @@
 import Faq from "@/components/HomeComp/Faq/Faq";
 import Highlights2 from "@/components/HomeComp/Highlights2/Highlights2";
-import Testimonials from "@/components/HomeComp/Testimonials/Testimonials";
+import Testimonials from "@/components/HomeComp/TestimonialsSlider/Testimonials/Testimonials";
 import Services from "@/components/ServicesCom/Services/Services";
 import HeroCustom from "@/components/ShareComp/HeroCustom/HeroCustom";
 import Image from "next/image";

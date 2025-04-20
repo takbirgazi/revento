@@ -1,6 +1,6 @@
 import Faq from '@/components/HomeComp/Faq/Faq';
 import Highlights2 from '@/components/HomeComp/Highlights2/Highlights2';
-import Testimonials from '@/components/HomeComp/Testimonials/Testimonials';
+import Testimonials from '@/components/HomeComp/TestimonialsSlider/Testimonials/Testimonials';
 import HeroTestimonial from '@/components/TestimonialComp/HeroTestimonial/HeroTestimonial';
 import ReviewCard from '@/components/TestimonialComp/ReviewCard/ReviewCard';
 import Image from 'next/image';

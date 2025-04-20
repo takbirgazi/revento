@@ -3,7 +3,8 @@ import MissionAndVision from '@/components/AboutComp/MissionAndVision/MissionAnd
 import OurTeam from '@/components/AboutComp/OurTeam/OurTeam';
 import OurValues from '@/components/AboutComp/OurValues/OurValues';
 import Highlights2 from '@/components/HomeComp/Highlights2/Highlights2';
-import Testimonials from '@/components/HomeComp/Testimonials/Testimonials';
+import Partners from '@/components/HomeComp/Partners/Partners';
+import TestimonialsSlider from '@/components/HomeComp/TestimonialsSlider/TestimonialsSlider';
 import HeroCustom from '@/components/ShareComp/HeroCustom/HeroCustom';
 import Image from 'next/image';
 
@@ -41,7 +42,8 @@ const page = () => {
                     <Counter />
                     <OurValues />
                     <OurTeam />
-                    <Testimonials />
+                    <TestimonialsSlider />
+                    <Partners />
                     <div className='max-w-4xl mx-auto py-16'>
                         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4'>
                             <figure>
