@@ -8,16 +8,16 @@ const Highlights2 = () => {
     return (
         <div className="p-4 flex justify-center items-center">
             <div className="relative p-8 rounded-4xl bg-[#051a2f]">
-                <h2 className="relative md:w-10/12 mx-auto font-anton text-center lg:leading-24 text-xl md:text-7xl text-white py-9 uppercase">Ready to Partner with Revento & unlock the full potential?
+                <h2 className="relative md:w-10/12 mx-auto font-anton text-center lg:leading-24 text-xl md:text-7xl text-white py-9 uppercase">You&apos;re not alone in this. Let’s fight your digital battle—side by side
                     {/* absolute data  */}
-                    <div className="absolute md:-bottom-9 md:right-[25%]">
+                    <div className="absolute md:-bottom-8 md:right-[25%]">
                         <figure className={`w-8 h-8 md:w-10 md:h-10 lg:h-25 lg:w-25 ${styles.rotateAnim2}`}>
                             <Image className="h-full w-full" src={rotateImage} height={80} width={150} alt="Bounse" />
                         </figure>
                     </div>
                 </h2>
                 <div className="flex flex-col md:flex-row justify-center items-center lg:pt-20">
-                    <CustomButton link="/contact" title="get in touch" />
+                    <CustomButton link="/contact" title="Join Forces with Motion Mark" />
                 </div>
                 <div className="absolute top-0 left-2/4 flex justify-center items-center">
                     <figure className="h-5 w-5 md:h-20 md:w-20 rotate-180">

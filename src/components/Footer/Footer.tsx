@@ -57,7 +57,8 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="max-w-60">
-                    <p className="uppercase text-gray-500">Copyright © 2024 Healix. All Rights Reserved.</p>
+                    <p className="uppercase text-gray-500">COPYRIGHT © {new Date().getFullYear()} MOTION MARK
+                        ALL RIGHTS RESERVED.</p>
                 </div>
             </div>
         </div>

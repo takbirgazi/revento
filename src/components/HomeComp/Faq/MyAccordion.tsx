@@ -9,23 +9,28 @@ export function MyAccordion() {
     const accordionData = [
         {
             id: 1,
-            title: "What services does Revento offer?",
-            desc: "Revento provides a full suite of digital marketing services, including SEO, PPC, social media marketing, content creation, email marketing, web design, and more."
+            title: "What services do you offer?",
+            desc: "We offer web development, SEO, digital marketing, content marketing, branding, and more—tailored to help you grow online."
         },
         {
             id: 2,
-            title: "How does Revento measure success?",
-            desc: "Revento provides a full suite of digital marketing services, including SEO, PPC, social media marketing, content creation, email marketing, web design, and more."
+            title: "Who do you work with?",
+            desc: "We work with startups, enterprises, influencers, and anyone ready to grow their digital presence—no niche is off-limits."
         },
         {
             id: 3,
-            title: "How do I get started with Revento?",
-            desc: "Revento provides a full suite of digital marketing services, including SEO, PPC, social media marketing, content creation, email marketing, web design, and more."
+            title: "How much do your services cost?",
+            desc: "Pricing depends on your needs and goals. We offer custom packages after a free consultation to ensure the best value."
         },
         {
             id: 4,
-            title: "Does Revento provide ongoing support?",
-            desc: "Revento provides a full suite of digital marketing services, including SEO, PPC, social media marketing, content creation, email marketing, web design, and more."
+            title: "How long does it take to build a website or run a campaign?",
+            desc: "Most websites take 2–6 weeks. Marketing campaigns vary. We give you clear timelines before we start any project."
+        },
+        {
+            id: 5,
+            title: "What makes Motion Mark different?",
+            desc: "We treat your growth as our own. You’re not just a client—you’re a partner, a brother in arms. Every strategy is built for results."
         },
     ]
     return (

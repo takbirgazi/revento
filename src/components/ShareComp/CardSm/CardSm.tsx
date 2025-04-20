@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 import { FaArrowRight } from "react-icons/fa6";
 
 interface CardDataType {
@@ -19,12 +18,12 @@ const CardSm: React.FC<CardDataType> = ({ cardData }) => {
         <div style={{ backgroundColor: cardData.bgColor }} className={`relative rounded-3xl overflow-hidden p-5 w-60 pt-7 pb-12`}>
             <div className="flex justify-between">
                 <h2 className="text-xl lg:text-4xl font-bold pb-2">{cardData.title}</h2>
-                <Link href={cardData.link} className="group relative overflow-hidden -mt-4 -mr-3 -rotate-45 h-8 w-8 flex justify-center items-center ">
+                <div className="group relative overflow-hidden -mt-4 -mr-3 -rotate-45 h-8 w-8 flex justify-center items-center ">
                     <span className="flex justify-center items-center">
                         <FaArrowRight className="absolute text-2xl top-0 group-hover:translate-x-8 text-[#051a2f] transition-all duration-500" />
                         <FaArrowRight className="absolute text-2xl top-0 -translate-x-8 text-white group-hover:translate-x-0 transition-all duration-500" />
                     </span>
-                </Link>
+                </div>
             </div>
             <p className="w-11/12 text-sm leading-6">{cardData.desc}</p>
 

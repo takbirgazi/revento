@@ -24,7 +24,7 @@ const HowWork = () => {
             id: 2,
             title: "We craft tailored strategies that align with your business goals.",
             desc: "Combining marketing insights with creative development, we shape content, campaigns, and experiences designed to capture attention and convert audiences.",
-            imageUrl: image_2.src,
+            imageUrl: image_4.src,
             bgColor: "#9D89FC"
         },
         {
@@ -38,7 +38,7 @@ const HowWork = () => {
             id: 4,
             title: "Data-driven execution with measurable results.",
             desc: "We launch, track, and report campaigns with a focus on KPIs, engagement metrics, and business outcomes — laying a clear path for continued growth.",
-            imageUrl: image_4.src,
+            imageUrl: image_2.src,
             bgColor: "#1cb785"
         },
     ]

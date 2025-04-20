@@ -10,9 +10,9 @@ import Image from 'next/image';
 
 const page = () => {
     const heroData = {
-        topHeader: "about us",
-        mainHeader: "Discover Revento",
-        desc: "Unlock growth with powerful digital strategies that connect, convert, and scale.",
+        topHeader: "",
+        mainHeader: "DISCOVER MOTION MARK",
+        desc: "Motion Mark was born from a battlefield mindset.",
         topHeaderColor: "#ff4f3f",
         mainHeaderColor: "white",
     }
