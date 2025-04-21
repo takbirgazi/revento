@@ -38,7 +38,7 @@ const Services = () => {
         },
         {
             id: 4,
-            title: "Content marketing",
+            title: "Content production",
             desc: "Grow your audience and generate more leads with content built for your ideal customer.",
             link: "/",
             bgColor: "#051A2F",
@@ -74,7 +74,7 @@ const Services = () => {
         },
         {
             id: 8,
-            title: "Email marketing",
+            title: "Paid Marketing",
             desc: "Nurture relationships and drive conversions with personalized email campaigns that speak directly to your audience.",
             link: "/",
             bgColor: "#FF4F3F",
