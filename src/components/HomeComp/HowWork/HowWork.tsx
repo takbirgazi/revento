@@ -15,28 +15,28 @@ const HowWork = () => {
     const accordions = [
         {
             id: 1,
-            title: "We analyze your brand, target audience, and industry landscape.",
+            title: "Understanding Your Business",
             desc: "By conducting a comprehensive brand audit, audience research, and market analysis, we uncover strengths, challenges, and growth opportunities — setting the stage for strategic transformation.",
             imageUrl: image_1.src,
             bgColor: "#ff8f27"
         },
         {
             id: 2,
-            title: "We craft tailored strategies that align with your business goals.",
+            title: "Strategic Planning and Creative Execution",
             desc: "Combining marketing insights with creative development, we shape content, campaigns, and experiences designed to capture attention and convert audiences.",
             imageUrl: image_4.src,
             bgColor: "#9D89FC"
         },
         {
             id: 3,
-            title: "Agile workshops to validate ideas and optimize performance.",
+            title: "Collaboration and optimization",
             desc: "From design sprints to user testing, we co-create solutions, gather real-time feedback, and refine your strategy through iterative improvements.",
             imageUrl: image_3.src,
             bgColor: "#ff4f3f"
         },
         {
             id: 4,
-            title: "Data-driven execution with measurable results.",
+            title: "Delivering and reporting results",
             desc: "We launch, track, and report campaigns with a focus on KPIs, engagement metrics, and business outcomes — laying a clear path for continued growth.",
             imageUrl: image_2.src,
             bgColor: "#1cb785"

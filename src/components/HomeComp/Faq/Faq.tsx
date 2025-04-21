@@ -6,7 +6,7 @@ const Faq = () => {
     const headerData = {
         topHeading: "Faq",
         topHeadingColor: "#9d89fc",
-        heading: "What services do you offer?",
+        heading: "Your Questions Answered",
         headingColor: "#051a2f"
     }
     return (
