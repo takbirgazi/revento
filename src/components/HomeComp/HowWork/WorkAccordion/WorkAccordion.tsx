@@ -33,7 +33,7 @@ const WorkAccordion: React.FC<AccordionDataType> = ({ accordionData }) => {
                 <div className="flex-wrap">
                     <div className="flex flex-col md:flex-row justify-between items-center w-full">
                         <h2 className={`${isOpen ? "text-white" : "text-[#051a2f]"} w-full md:w-3/5 text-xl md:text-4xl pb-2 font-anton flex items-center`}>
-                            <span className="text-8xl">{accordionData.id}.</span> {accordionData.title}
+                            <span className="text-8xl pr-4">{accordionData.id}.</span> {accordionData.title}
                         </h2>
                         <p className={`${isOpen ? "text-white" : "text-[#051a2f]"} w-full md:w-2/5 lg:leading-8`}>
                             {accordionData.desc}
