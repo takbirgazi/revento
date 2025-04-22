@@ -1,5 +1,5 @@
-import CardMd from '@/components/ShareComp/CardMd/CardMd';
 import SectionHeader from '@/components/ShareComp/SectionHeader/SectionHeader';
+import ServiceCard from '../ServiceCard/ServiceCard';
 
 const Services = () => {
     const headerData = {
@@ -11,58 +11,28 @@ const Services = () => {
     const cardData = [
         {
             id: 1,
-            title: "Search Engine Optimization",
-            desc: "Boost your website’s visibility and attract organic traffic with SEO tailored to your business goals.",
-            link: "/",
-            bgColor: "#ff8f27",
-            topImageLink: "https://framerusercontent.com/images/HaTeCnedqptj5oZx1ZHkM2pcbZg.svg",
-            bottomImageLink: "https://framerusercontent.com/images/TK6PAMZN32ze4HffAHGSjINGCE.svg"
-        },
-        {
-            id: 2,
-            title: "Content Marketing",
-            desc: "Enhance your brand’s online presence and drive engagement with a strategy customized to your needs.",
-            link: "/",
+            heading: "Brand Strategy & Planning",
+            subHeading: "Turn your idea into a sustainable brand—with guidance from a certified brand strategist. ",
             bgColor: "#9d89fc",
-            topImageLink: "https://framerusercontent.com/images/mP6yDpIu2HzOfRG2Qlr2z6O28O0.svg",
-            bottomImageLink: "https://framerusercontent.com/images/idbDbcyPRv2S59MVMgWh9L7LA.svg"
-        },
-        {
-            id: 3,
-            title: "Social Media Marketing",
-            desc: "Grow your audience and increase conversions with targeted digital marketing solutions.",
-            link: "/",
-            bgColor: "#ff4f3f",
-            topImageLink: "https://framerusercontent.com/images/7os4g4ruRwOonodXRETIWnxw1M.svg",
-            bottomImageLink: "https://framerusercontent.com/images/hGSozs8NwWZ077Sm2JLNNdlBwQw.svg"
-        },
-        {
-            id: 4,
-            title: "Email Marketing",
-            desc: "Maximize your online reach and generate leads with content tailored to your audience.",
-            link: "/",
-            bgColor: "#ff4f3f",
-            topImageLink: "https://framerusercontent.com/images/7os4g4ruRwOonodXRETIWnxw1M.svg",
-            bottomImageLink: "https://framerusercontent.com/images/hGSozs8NwWZ077Sm2JLNNdlBwQw.svg"
-        },
-        {
-            id: 5,
-            title: "Influencer Marketing",
-            desc: "Elevate your business with a social media strategy designed for your growth objectives.",
-            link: "/",
-            bgColor: "#1cb785",
-            topImageLink: "https://framerusercontent.com/images/HaTeCnedqptj5oZx1ZHkM2pcbZg.svg",
-            bottomImageLink: "https://framerusercontent.com/images/idbDbcyPRv2S59MVMgWh9L7LA.svg"
-        },
-        {
-            id: 6,
-            title: "Analytics and Reporting",
-            desc: "Expand your customer base and improve visibility with data-driven advertising campaigns.",
-            link: "/",
-            bgColor: "#051a2f",
-            topImageLink: "https://framerusercontent.com/images/7os4g4ruRwOonodXRETIWnxw1M.svg",
-            bottomImageLink: "https://framerusercontent.com/images/hGSozs8NwWZ077Sm2JLNNdlBwQw.svg"
-        },
+            textColor: "#ffffff",
+            description: [
+                {
+                    id: 1,
+                    title: "Understand Your Brand’s Core Identity",
+                    desc: "We dive deep into your brand’s values, audience, voice, and purpose to build a foundation that fuels everything from messaging to visuals—because knowing who you are is step one."
+                },
+                {
+                    id: 2,
+                    title: "Define a Roadmap That Matches Your Vision",
+                    desc: "We craft a strategic roadmap that aligns your goals, audience behavior, and market positioning—so every move you make takes you closer to long-term, sustainable success."
+                },
+                {
+                    id: 3,
+                    title: "Competitor and Market Positioning",
+                    desc: "Through in-depth market and competitor analysis, we identify where you stand and where you should be—turning insights into opportunities for differentiation and dominance."
+                },
+            ]
+        }
     ]
     return (
         <div className='py-10'>
@@ -70,9 +40,9 @@ const Services = () => {
                 <SectionHeader headerData={headerData} />
                 <p className='w-full lg:w-1/2 text-center lg:text-left'>Unlock growth with powerful digital strategies that connect, convert, and scale.</p>
             </div>
-            <div className='py-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-10'>
+            <div className='py-5 flex flex-col gap-4 mt-10'>
                 {
-                    cardData.map(card => <CardMd key={card.id} cardData={card} />)
+                    cardData.map(card => <ServiceCard key={card.id} serviceCardData={card} />)
                 }
             </div>
         </div>

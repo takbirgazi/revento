@@ -30,7 +30,7 @@ const page = () => {
                         <div className="flex justify-center items-center py-5"> <span className={styles.contactMask2}></span></div>
                         <h2 className="text-2xl outline-0 lg:text-4xl text-center pb-5 font-anton uppercase text-primaryBg">visit our office</h2>
                         <p className="flex flex-col gap-4 text-center pt-5 font-semibold">
-                            <a className="hover:text-[#9d89fc] hover:underline duration-300 transition-all" target="_blank" href="https://www.google.com/maps/place/United+States/@36.1114029,-161.470771,14922201m/data=!3m2!1e3!4b1!4m6!3m5!1s0x54eab584e432360b:0x1c3bb99243deb742!8m2!3d38.7945952!4d-106.5348379!16zL20vMDljN3cw?entry=ttu&g_ep=EgoyMDI0MTIwMS4xIKXMDSoASAFQAw%3D%3D">Northern Khan Heights, Plot 34, Main Road 3, Block D, Mirpur 11, Dhaka 1216</a>
+                            <a className="hover:text-[#9d89fc] hover:underline duration-300 transition-all" target="_blank" href="https://maps.app.goo.gl/GqqLcaxBmX5voLPY9">Northern Khan Heights, Plot 34, Main Road 3, Block D, Mirpur 11, Dhaka 1216</a>
                         </p>
                     </div>
                     <div className="rounded-3xl bg-[#e3eef8] p-10 py-24 relative">

@@ -20,7 +20,7 @@ const ContactForm = () => {
 
     const headerData = {
         topHeading: "",
-        heading: "send a message",
+        heading: "BOOK YOUR MEETING WITH US",
         topHeadingColor: "#9d89fb",
         headingColor: "#051a2f",
     };
