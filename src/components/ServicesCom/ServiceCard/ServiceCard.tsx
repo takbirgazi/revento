@@ -24,7 +24,7 @@ const ServiceCard: React.FC<ServiceCardDataType> = ({ serviceCardData }) => {
     return (
         <div style={{ backgroundColor: serviceCardData.bgColor }} className="relative p-5 md:p-7 lg:p-8 rounded-4xl">
             {/* Header section with toggle button */}
-            <div className="flex justify-between items-center">
+            <div className="flex justify-between items-center pt-7">
                 <div>
                     <h2 style={{ color: serviceCardData.textColor }} className="text-2xl lg:text-4xl font-medium uppercase font-anton">{serviceCardData.heading}</h2>
                     <h2 style={{ color: serviceCardData.textColor }} className="py-3">{serviceCardData.subHeading}</h2>

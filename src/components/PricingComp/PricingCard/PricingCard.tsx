@@ -36,7 +36,7 @@ const PricingCard: React.FC<PriceCardDataType> = ({ priceCardData }) => {
             </div>
             <div className="w-full lg:w-1/3 flex lg:justify-center">
                 <div>
-                    <h2 style={{ color: priceCardData.textColor }} className="text-2xl lg:text-5xl font-medium uppercase font-anton">${priceCardData.price}/month</h2>
+                    <h2 style={{ color: priceCardData.textColor }} className="text-2xl lg:text-5xl font-medium uppercase font-anton">${priceCardData.price}</h2>
                     <div className="flex py-5">
                         <Link href="/contact" className="group bg-white hover:bg-[#051a2f] text-[#051a2f] hover:text-white font-bold rounded-full px-3 md:px-7 py-5 hover:border-white uppercase text-sm lg:text-lg flex items-center gap-2 transition-all duration-300" >
                             <span>Get in touch</span>
