@@ -38,7 +38,7 @@ const Services = () => {
         },
         {
             id: 4,
-            title: "Content production",
+            title: "Make it content marketing",
             desc: "Grow your audience and generate more leads with content built for your ideal customer.",
             link: "/",
             bgColor: "#051A2F",
@@ -57,7 +57,7 @@ const Services = () => {
         {
             id: 6,
             title: "Social media marketing",
-            desc: "Grow your brand with interesting posts and smart ads—using both free and paid ways to get real results.",
+            desc: "We manage your social media channels with strategy, consistency, and care—so you stay active, relevant, and trusted.",
             link: "/",
             bgColor: "#FF8F27",
             topImageLink: "https://framerusercontent.com/images/7os4g4ruRwOonodXRETIWnxw1M.svg",
@@ -75,7 +75,7 @@ const Services = () => {
         {
             id: 8,
             title: "Paid Marketing",
-            desc: "Nurture relationships and drive conversions with personalized email campaigns that speak directly to your audience.",
+            desc: "We run targeted, data-driven paid campaigns that boost visibility, drive traffic, and deliver real, measurable ROI.",
             link: "/",
             bgColor: "#FF4F3F",
             topImageLink: "https://framerusercontent.com/images/7os4g4ruRwOonodXRETIWnxw1M.svg",

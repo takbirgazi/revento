@@ -44,7 +44,7 @@ const OurValues = () => {
                         <SectionHeader headerData={headerData} />
                     </div>
                 </div>
-                <p className='w-full lg:w-1/3 text-center lg:text-left'>Unlock growth with powerful digital strategies that connect, convert, and scale.</p>
+                {/* <p className='w-full lg:w-1/3 text-center lg:text-left'>Unlock growth with powerful digital strategies that connect, convert, and scale.</p> */}
             </div>
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 pt-10">
                 {
@@ -53,7 +53,7 @@ const OurValues = () => {
                             <figure className="bg-[#051a2f] p-1 rounded-full">
                                 <Image src={data.imageUrl} height={30} width={30} alt="Icon" />
                             </figure>
-                            <p className="font-anton font-bold uppercase text-lg md:text-2xl">{data.title}</p>
+                            <p className="font-anton font-bold uppercase text-lg md:text-2xl ml-2">{data.title}</p>
                         </div>
                         <p className="text-gray-600 font-medium">{data.desc}</p>
                     </div>)

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import logo from "@/assets/images/logo-black.png";
-import { FaXTwitter } from "react-icons/fa6";
+import { FaPinterest, FaTiktok, FaXTwitter, FaYoutube } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaFacebook, FaInstagram } from "react-icons/fa";
 import { FaAngleRight } from "react-icons/fa6";
@@ -15,10 +15,13 @@ const Footer = () => {
                 </figure>
                 <p className="py-5 max-w-lg">Unlock growth with powerful digital strategies that connect, convert, and scale.</p>
                 <div className="flex gap-4 items-center">
-                    <FaXTwitter className="text-lg" />
-                    <a href="https://www.facebook.com/motionmarkdigitalagency" target="_blank" rel="noopener noreferrer"> <FaFacebook className="text-lg" /> </a>
-                    <FaLinkedin className="text-lg" />
-                    <a href="https://www.instagram.com/motionmarkdigitalagency" target="_blank" rel="noopener noreferrer"> <FaInstagram className="text-lg" /> </a>
+                    <a href="https://www.facebook.com/motionmarkdigitalagency" target="_blank" rel="noopener noreferrer"> <FaFacebook className="text-lg" /></a>
+                    <a href="https://www.instagram.com/motionmarkdigitalagency" target="_blank" rel="noopener noreferrer"> <FaInstagram className="text-lg" /></a>
+                    <a href="https://x.com/motion_mark_" target="_blank" rel="noopener noreferrer"><FaXTwitter className="text-lg" /></a>
+                    <a href="https://www.linkedin.com/company/motion-mark" target="_blank" rel="noopener noreferrer"><FaLinkedin className="text-lg" /></a>
+                    <a href="https://www.youtube.com/@Motionmarkdigital" target="_blank" rel="noopener noreferrer"><FaYoutube className="text-lg" /></a>
+                    <a href="https://www.tiktok.com/@motionmarkagency" target="_blank" rel="noopener noreferrer"><FaTiktok className="text-lg" /></a>
+                    <a href="https://www.pinterest.com/motionmarkdigital" target="_blank" rel="noopener noreferrer"><FaPinterest className="text-lg" /></a>
                 </div>
             </div>
             <div className="w-full md:w-1/3 flex flex-col md:items-end md:justify-end">
