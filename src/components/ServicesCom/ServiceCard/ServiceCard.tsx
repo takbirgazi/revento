@@ -32,7 +32,7 @@ const ServiceCard: React.FC<ServiceCardDataType> = ({ serviceCardData }) => {
                 <button
                     onClick={() => setIsOpen(!isOpen)}
                     // style={{ color: priceCardData.textColor }}
-                    className="p-3 rounded-full pricingCardButton bg-gray-800 text-white transition-colors"
+                    className="p-3 rounded-full pricingCardButton bg-gray-800 text-white transition-colors mr-3 -mt-16"
                     aria-label={isOpen ? "Collapse details" : "Expand details"}
                 >
                     {isOpen ? <FaChevronUp size={24} /> : <FaChevronDown size={24} />}
