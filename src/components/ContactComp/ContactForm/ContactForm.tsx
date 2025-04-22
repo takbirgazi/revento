@@ -19,7 +19,7 @@ const ContactForm = () => {
     } = useForm();
 
     const headerData = {
-        topHeading: "CONTACT US",
+        topHeading: "",
         heading: "send a message",
         topHeadingColor: "#9d89fb",
         headingColor: "#051a2f",
@@ -55,9 +55,9 @@ const ContactForm = () => {
                         <SectionHeader headerData={headerData} />
                     </div>
                 </div>
-                <p className='w-full lg:w-1/3 text-center lg:text-left'>
+                {/* <p className='w-full lg:w-1/3 text-center lg:text-left'>
                     Unlock growth with powerful digital strategies that connect, convert, and scale.
-                </p>
+                </p> */}
             </div>
 
             <div className="py-9">

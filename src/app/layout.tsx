@@ -32,14 +32,20 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${inter.variable} ${anton.variable}`}>
+      <head>
+        <link
+          href="https://assets.calendly.com/assets/external/widget.css"
+          rel="stylesheet"
+        />
+      </head>
       <body className="font-inter"> {/* Default font is Inter */}
         <Header />
         {children}
         <Footer />
 
-<script
-  dangerouslySetInnerHTML={{
-    __html: `
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
       var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
       (function() {
         var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
@@ -50,8 +56,8 @@ export default function RootLayout({
         s0.parentNode.insertBefore(s1, s0);
       })();
     `,
-  }}
-></script>
+          }}
+        ></script>
 
 
       </body>

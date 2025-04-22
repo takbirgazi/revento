@@ -38,7 +38,7 @@ const Services = () => {
         },
         {
             id: 4,
-            title: "Make it content marketing",
+            title: "Content Marketing",
             desc: "Grow your audience and generate more leads with content built for your ideal customer.",
             link: "/",
             bgColor: "#051A2F",
@@ -56,7 +56,7 @@ const Services = () => {
         },
         {
             id: 6,
-            title: "Social media marketing",
+            title: "Social Media Management",
             desc: "We manage your social media channels with strategy, consistency, and care—so you stay active, relevant, and trusted.",
             link: "/",
             bgColor: "#FF8F27",

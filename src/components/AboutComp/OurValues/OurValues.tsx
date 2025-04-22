@@ -53,7 +53,7 @@ const OurValues = () => {
                             <figure className="bg-[#051a2f] p-1 rounded-full">
                                 <Image src={data.imageUrl} height={30} width={30} alt="Icon" />
                             </figure>
-                            <p className="font-anton font-bold uppercase text-lg md:text-2xl ml-2">{data.title}</p>
+                            <p className="font-anton font-bold uppercase text-lg tracking-widest md:text-2xl ml-2">{data.title}</p>
                         </div>
                         <p className="text-gray-600 font-medium">{data.desc}</p>
                     </div>)
