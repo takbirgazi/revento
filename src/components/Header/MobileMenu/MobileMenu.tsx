@@ -37,13 +37,13 @@ const MobileMenu: React.FC<MenuType> = ({ links }) => {
                 </span>
             </div>
             {
-                isActive && <div className={`md:hidden flex flex-col justify-between gap-5 absolute w-full left-0 top-[73px] bg-gray-800 transition-all duration-500 overflow-hidden h-[100vh]`}>
-                    <div className="h-full p-4 flex flex-col gap-5">
+                isActive && <div className={`md:hidden flex flex-col justify-between gap-5 absolute w-full left-0 top-[73px] bg-gray-800 transition-all duration-500 px-5 overflow-hidden h-[100vh]`}>
+                    <div className="h-full py-4 px-5 flex flex-col gap-5">
                         {
                             links.map(menu => <Link key={menu.id} className="text-white font-semibold uppercase" href={menu.slag}>{menu.title}</Link>)
                         }
                     </div>
-                    <div className="mb-20 p-4 flex flex-col gap-5">
+                    <div className="mb-20 py-4 px-5 flex flex-col gap-5">
                         <a className="hover:text-[#9d89fc] text-white flex items-center gap-1 hover:underline duration-300 transition-all" href="tel:+8801316451034">
                             <figure>
                                 <Image

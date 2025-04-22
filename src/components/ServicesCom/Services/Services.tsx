@@ -47,8 +47,8 @@ const Services = () => {
             id: 2,
             heading: "Website Development",
             subHeading: "Get a fast, user-friendly website that boosts engagement and works perfectly on any device.",
-            bgColor: "#9d89fc",
-            textColor: "#ffffff",
+            bgColor: "#e9fa49",
+            textColor: "#051a2f",
             description: [
                 {
                     id: 1,
@@ -81,7 +81,7 @@ const Services = () => {
             id: 3,
             heading: "Search Engine Optimization (SEO)",
             subHeading: "Get better Google rankings, more traffic, and long-term growth with smart SEO.",
-            bgColor: "#9d89fc",
+            bgColor: "#1cb785",
             textColor: "#ffffff",
             description: [
                 {
@@ -149,8 +149,8 @@ const Services = () => {
             id: 5,
             heading: "Design Services",
             subHeading: "Elevate your brand with stunning, custom designs—logos, banners, and visuals tailored to your business.",
-            bgColor: "#9d89fc",
-            textColor: "#ffffff",
+            bgColor: "#e9fa49",
+            textColor: "#051a2f",
             description: [
                 {
                     id: 1,
@@ -183,7 +183,7 @@ const Services = () => {
             id: 6,
             heading: "Social Media Management",
             subHeading: "We manage your social media channels with strategy, consistency, and care—so you stay active, relevant, and trusted.",
-            bgColor: "#9d89fc",
+            bgColor: "#1cb785",
             textColor: "#ffffff",
             description: [
                 {
@@ -251,8 +251,8 @@ const Services = () => {
             id: 8,
             heading: "Paid Marketing",
             subHeading: "We run targeted, data-driven paid campaigns that boost visibility, drive traffic, and deliver real, measurable ROI.",
-            bgColor: "#9d89fc",
-            textColor: "#ffffff",
+            bgColor: "#e9fa49",
+            textColor: "#051a2f",
             description: [
                 {
                     id: 1,
@@ -285,7 +285,7 @@ const Services = () => {
             id: 9,
             heading: "Analytics & Reporting",
             subHeading: "Make informed decisions and track your success with detailed analytics and clear, actionable reports.",
-            bgColor: "#9d89fc",
+            bgColor: "#1cb785",
             textColor: "#ffffff",
             description: [
                 {
