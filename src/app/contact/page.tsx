@@ -3,6 +3,7 @@ import Faq from "@/components/HomeComp/Faq/Faq";
 import Highlights2 from "@/components/HomeComp/Highlights2/Highlights2";
 import HeroCustom from "@/components/ShareComp/HeroCustom/HeroCustom";
 import styles from "@/assets/styles/animation.module.css";
+import ContactCalendly from "@/components/ContactComp/ContactCalendly/ContactCalendly";
 
 const page = () => {
     const heroData = {
@@ -42,7 +43,8 @@ const page = () => {
                         </p>
                     </div>
                 </div>
-                <ContactForm />
+                {/* <ContactForm /> */}
+                <ContactCalendly />
                 <Faq />
                 <Highlights2 />
             </div>
