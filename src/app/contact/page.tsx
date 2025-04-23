@@ -1,4 +1,3 @@
-import ContactForm from "@/components/ContactComp/ContactForm/ContactForm";
 import Faq from "@/components/HomeComp/Faq/Faq";
 import Highlights2 from "@/components/HomeComp/Highlights2/Highlights2";
 import HeroCustom from "@/components/ShareComp/HeroCustom/HeroCustom";
