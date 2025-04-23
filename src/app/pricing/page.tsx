@@ -1,37 +1,35 @@
 import OurValues from "@/components/AboutComp/OurValues/OurValues";
 import Faq from "@/components/HomeComp/Faq/Faq";
-import Highlights from "@/components/HomeComp/Highlights/Highlights";
 import Highlights2 from "@/components/HomeComp/Highlights2/Highlights2";
 import PricingCard from "@/components/PricingComp/PricingCard/PricingCard";
 import HeroCustom from "@/components/ShareComp/HeroCustom/HeroCustom";
-import ReviewCard from "@/components/TestimonialComp/ReviewCard/ReviewCard";
 
 const page = () => {
     const heroData = {
-        topHeader: "pricing",
+        topHeader: "",
         mainHeader: "Pricing plans",
         desc: "Experience growth through innovative digital marketing designed to deliver results.",
         topHeaderColor: "#e9fa49",
         mainHeaderColor: "white",
     }
-    const reviewData = [
-        {
-            id: 1,
-            title: "Innovex elevated our online visibility.",
-            desc: "Their fresh ideas and sharp execution helped us achieve record-breaking growth in a few months. Amazing!",
-            authName: "Brooklyn Simmons",
-            authDeg: "Product Manager",
-            authImageUrl: "https://framerusercontent.com/images/z2WdUpeHt85PrtNFbMJE6mUHk.png?scale-down-to=512"
-        },
-        {
-            id: 2,
-            title: "Working with Revento has been a game",
-            desc: "Their innovative solutions and proactive approach boosted our sales by 3x in just a few months. Truly outstanding!",
-            authName: "Madison Hayes",
-            authDeg: "Program Manager",
-            authImageUrl: "https://framerusercontent.com/images/YcdOY8jeCV1u2sXTTrJC2a2aG04.png"
-        },
-    ]
+    // const reviewData = [
+    //     {
+    //         id: 1,
+    //         title: "Innovex elevated our online visibility.",
+    //         desc: "Their fresh ideas and sharp execution helped us achieve record-breaking growth in a few months. Amazing!",
+    //         authName: "Brooklyn Simmons",
+    //         authDeg: "Product Manager",
+    //         authImageUrl: "https://framerusercontent.com/images/z2WdUpeHt85PrtNFbMJE6mUHk.png?scale-down-to=512"
+    //     },
+    //     {
+    //         id: 2,
+    //         title: "Working with Revento has been a game",
+    //         desc: "Their innovative solutions and proactive approach boosted our sales by 3x in just a few months. Truly outstanding!",
+    //         authName: "Madison Hayes",
+    //         authDeg: "Program Manager",
+    //         authImageUrl: "https://framerusercontent.com/images/YcdOY8jeCV1u2sXTTrJC2a2aG04.png"
+    //     },
+    // ]
 
     const pricingData = [
         {
@@ -139,12 +137,12 @@ const page = () => {
                         }
                     </div>
                     <OurValues />
-                    <Highlights />
+                    {/* <Highlights />
                     <div className='grid grid-cols-1 md:grid-cols-2 gap-8 py-10'>
                         {
                             reviewData.map(data => <ReviewCard reviewData={data} key={data.id} />)
                         }
-                    </div>
+                    </div> */}
                     <Faq />
                     <Highlights2 />
                 </div>

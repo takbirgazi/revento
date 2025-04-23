@@ -34,7 +34,7 @@ export const CalendlyWidget = () => {
   return (
     <button
       onClick={openCalendly}
-      className="group bg-white hover:bg-[#051a2f] text-[#051a2f] hover:text-white font-bold rounded-full px-3 md:px-7 py-2 border-4 border-transparent hover:border-white uppercase text-sm lg:text-lg flex items-center gap-2 transition-all duration-300"
+      className="group bg-white hover:bg-[#051a2f] text-[#051a2f] hover:text-white font-bold rounded-full px-1 md:px-7 py-2 border-4 border-transparent hover:border-white uppercase text-xs lg:text-lg flex items-center gap-2 transition-all duration-300"
     >
       <span>Join Forces with Motion Mark</span>
       <span className="relative h-4 w-5 lg:h-5 overflow-hidden">

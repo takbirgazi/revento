@@ -25,7 +25,7 @@ const HeroCustom: React.FC<HeroDataType> = ({ heroData }) => {
     return (
         <div>
             <div className="bg-primaryBg">
-                <div data-aos="fade-up" className="container mx-auto max-w-[1280px] pt-20">
+                <div data-aos="fade-up" className="container mx-auto max-w-[1280px] pt-5">
                     <h2 style={{ color: heroData.topHeaderColor }} className="text-2xl text-center uppercase lg:text-3xl pb-5 font-anton">{heroData.topHeader}</h2>
                     <h2 style={{ color: heroData.mainHeaderColor }} className="w-fit mx-auto relative text-center text-[40px] lg:text-[100px] uppercase font-medium tracking-tight font-anton">
                         {heroData.mainHeader}
@@ -49,8 +49,8 @@ const HeroCustom: React.FC<HeroDataType> = ({ heroData }) => {
                 </div>
                 <div className="pt-8 max-w-[1200px] mx-auto">
                     <div className="flex justify-center items-end pt-5 overflow-hidden">
-                        <figure className="h-10 w-16 md:h-20 md:w-32 lg:h-32 lg:w-40">
-                            <Image className="w-full h-full" src="https://framerusercontent.com/images/hu1eUWnLUAIjJFEcHS6XHGyNUQ.svg" height={200} width={200} alt="Icon" />
+                        <figure className="h-10 w-16 md:h-20 md:w-32 lg:h-16 lg:w-20">
+                            <Image className="w-full h-full" src="https://framerusercontent.com/images/hu1eUWnLUAIjJFEcHS6XHGyNUQ.svg" height={200} width={200} alt="Bottom Tick" />
                         </figure>
                     </div>
                 </div>

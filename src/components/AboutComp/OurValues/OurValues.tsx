@@ -24,7 +24,7 @@ const OurValues = () => {
         },
         {
             id: 3,
-            title: "Creative Meets Strategic",
+            title: "CREATIVE STRATEGY",
             imageUrl: 'https://framerusercontent.com/images/XSsqtEXkQlwLQgCVF2KjNesk.svg',
             desc: "A rare combo of storytelling, design, and data"
         },

@@ -11,7 +11,7 @@ const MissionAndVision = () => {
                     <p className="text-justify">And your wins? We celebrate them like they&apos;re ours. We didn’t start Motion Mark for the trends or the likes.</p>
                     <p className="text-justify">We started it because too many brilliant ideas were fading into the noise—not from lack of vision, but from lack of execution. The digital world is fast, crowded, and unforgiving. Brands either move forward or get left behind. That’s why we do things differently. We don’t just</p>
 
-                    <p className="text-justify">build campaigns—<span className="font-semibold">we build momentum.</span> <br />We don’t chase vanity metrics—<span className="font-semibold">we drive real growth.</span></p>
+                    <p className="text-justify">Build campaigns—<span className="font-semibold">we build momentum.</span> <br />We don’t chase vanity metrics—<span className="font-semibold">we drive real growth.</span></p>
 
                     <p className="text-justify">And we don’t do one-size-fits-all—we craft strategies as unique as your story. This isn’t just marketing. This is a partnership. <br />This is your digital evolution—with Motion Mark at your side. Let’s make it legendary.</p>
                 </div>

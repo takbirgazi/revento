@@ -15,11 +15,12 @@ interface ServiceCardDataType {
             title: string,
             desc: string
         }[]
-    }
+    },
+    initiallyOpen?: boolean  // New prop to control initial state
 }
 
-const ServiceCard: React.FC<ServiceCardDataType> = ({ serviceCardData }) => {
-    const [isOpen, setIsOpen] = useState(false);
+const ServiceCard: React.FC<ServiceCardDataType> = ({ serviceCardData, initiallyOpen = false }) => {
+    const [isOpen, setIsOpen] = useState(initiallyOpen);
 
     return (
         <div style={{ backgroundColor: serviceCardData.bgColor }} className="relative p-5 md:p-7 lg:p-8 rounded-4xl">
@@ -31,7 +32,6 @@ const ServiceCard: React.FC<ServiceCardDataType> = ({ serviceCardData }) => {
                 </div>
                 <button
                     onClick={() => setIsOpen(!isOpen)}
-                    // style={{ color: priceCardData.textColor }}
                     className="p-3 rounded-full pricingCardButton bg-gray-800 text-white transition-colors mr-3 -mt-16"
                     aria-label={isOpen ? "Collapse details" : "Expand details"}
                 >

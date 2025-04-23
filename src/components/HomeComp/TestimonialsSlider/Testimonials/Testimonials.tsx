@@ -5,8 +5,8 @@ const Testimonials = () => {
     return (
         <div className="py-5 flex flex-col md:flex-row md:gap-20 items-center justify-between">
             <div className='relative overflow-hidden'>
-                <figure className="rounded-4xl overflow-hidden">
-                    <Image className='w-full h-full' src="https://framerusercontent.com/images/Ftw2WR3BA7Qta1YZhwxUYSOSJ6o.png?scale-down-to=1024" height={850} width={580} alt='Feature' />
+                <figure className="h-72 md:h-full rounded-4xl overflow-hidden">
+                    <Image className='w-full h-full' src="https://framerusercontent.com/images/Ftw2WR3BA7Qta1YZhwxUYSOSJ6o.png?scale-down-to=1024" height={850} width={580} alt='Testimonials Image' />
                 </figure>
 
 

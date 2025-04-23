@@ -9,7 +9,7 @@ import rotateImage from "@/assets/images/webiste-seal.png";
 import asterisk from "@/assets/images/icons/asterisk-orange.png"
 import plusGreen from "@/assets/images/icons/plus-green.png"
 import plusAsh from "@/assets/images/icons/plus-ash.png"
-import world from "@/assets/images/icons/world.jpg"
+import world from "@/assets/images/icons/earth.png"
 import starYellow from "@/assets/images/icons/star-yellow.png"
 import starAsh from "@/assets/images/icons/star-ash.png"
 
@@ -60,7 +60,7 @@ const Hero = () => {
 
                     <div className="flex justify-center">
                         <h2 className="relative text-center text-white text-[40px] lg:text-[100px] uppercase font-medium tracking-tight flex items-center">
-                            <span className="text-[#9d89fc] font-anton">Vision into</span>
+                            <span className="text-[#9d89fc] text-right font-anton">Vision into</span>
                             <div className="relative h-10 w-12 lg:h-25 lg:w-30 bg-[#e9fa49] mx-3 -rotate-12">
                                 <div className="hidden lg:block absolute top-10 z-30 w-fit -left-6 py-1.5 text-sm rotate-90 overflow-hidden font-inter bg-[#051a2f]">
                                     <p className="font-bold lowercase tracking-widest -mb-1.5 text-left">innovative</p>
@@ -74,16 +74,16 @@ const Hero = () => {
                                     <Image className="h-full w-full" src={asterisk} height={80} width={150} alt="Bounse" />
                                 </figure>
                             </div>
-                            <span className="text-[#ff8f27] font-anton">Real-World</span>
-                            <div className="absolute top-0 -left-[2%]">
+                            <span className="text-[#ff8f27] font-anton text-left">Real-World</span>
+                            <div className="absolute top-0 left-9 md:-left-[2%]">
                                 <figure className={`h-5 w-5 lg:h-10 lg:w-10`}>
-                                    <Image className="h-full w-full" src={starYellow} height={80} width={80} alt="Bounse" />
+                                    <Image className="h-full w-full" src={starYellow} height={80} width={80} alt="Yellow Star" />
                                 </figure>
                             </div>
 
-                            <div className="absolute -bottom-1 right-0">
+                            <div className="absolute -bottom-1 right-12 md:right-0">
                                 <figure className={`h-5 w-5 lg:h-10 lg:w-10 ${styles.slideAnim3}`}>
-                                    <Image className="h-full w-full" src={starAsh} height={80} width={150} alt="Bounse" />
+                                    <Image className="h-full w-full" src={starAsh} height={80} width={150} alt="Right White Star" />
                                 </figure>
                             </div>
                         </h2>

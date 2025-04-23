@@ -324,7 +324,13 @@ const Services = () => {
             </div>
             <div className='py-5 flex flex-col gap-4 mt-10'>
                 {
-                    cardData.map(card => <ServiceCard key={card.id} serviceCardData={card} />)
+                    cardData.map((card, index) => (
+                        <ServiceCard
+                            key={card.id}
+                            serviceCardData={card}
+                            initiallyOpen={index === 0}  // Only true for the first card
+                        />
+                    ))
                 }
             </div>
         </div>

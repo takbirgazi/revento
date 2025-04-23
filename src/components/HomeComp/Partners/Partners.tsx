@@ -70,7 +70,8 @@ const Partners = () => {
     return (
         <div className="pb-12">
             <div className="relative w-full overflow-hidden py-8 rounded-xs">
-                <h2 className="text-gray-800 text-xl font-semibold pb-10 text-center">Trusted by boldest companies</h2>
+                <h2 className="text-[#ff4f3f] text-2xl text-center lg:text-3xl pb-5 font-anton">OUR VALUED CLIENTS</h2>
+                {/* <h2 className="text-gray-800 text-xl font-semibold pb-10 text-center">OUR VALUED CLIENTS</h2> */}
                 <div className="w-full md:w-11/12 mx-auto">
                     <Marquee speed={50}>
                         {items.map((item) => (

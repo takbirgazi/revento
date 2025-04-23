@@ -6,7 +6,7 @@ import styles from "@/assets/styles/animation.module.css";
 
 const page = () => {
     const heroData = {
-        topHeader: "Contact Us",
+        topHeader: "",
         mainHeader: "Let’s Connect",
         desc: "Experience growth through innovative digital marketing designed to deliver results.",
         topHeaderColor: "#9d89fb",

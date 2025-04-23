@@ -1,6 +1,5 @@
 import Counter from '@/components/AboutComp/Counter/Counter';
 import MissionAndVision from '@/components/AboutComp/MissionAndVision/MissionAndVision';
-import OurTeam from '@/components/AboutComp/OurTeam/OurTeam';
 import OurValues from '@/components/AboutComp/OurValues/OurValues';
 import Highlights2 from '@/components/HomeComp/Highlights2/Highlights2';
 import Partners from '@/components/HomeComp/Partners/Partners';
@@ -40,7 +39,7 @@ const page = () => {
                     </div>
                     <Counter />
                     <OurValues />
-                    <OurTeam />
+                    {/* <OurTeam /> */}
                     <TestimonialsSlider />
                     <Partners />
                     {/* <div className='max-w-4xl mx-auto py-16'>

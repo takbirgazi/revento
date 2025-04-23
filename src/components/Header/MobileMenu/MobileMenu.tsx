@@ -10,6 +10,7 @@ import locationImage from "@/assets/images/icons/location-icon.png";
 import { FaPinterest, FaTiktok, FaXTwitter, FaYoutube } from "react-icons/fa6";
 import { FaFacebook, FaInstagram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
+import ContestButton from "@/components/HomeComp/ContestButton/ContestButton";
 
 interface MenuType {
     links: {
@@ -37,11 +38,12 @@ const MobileMenu: React.FC<MenuType> = ({ links }) => {
                 </span>
             </div>
             {
-                isActive && <div className={`md:hidden flex flex-col justify-between gap-5 absolute w-full left-0 top-[73px] bg-gray-800 transition-all duration-500 px-5 overflow-hidden h-[100vh]`}>
-                    <div className="h-full py-4 px-5 flex flex-col gap-5">
+                isActive && <div className={`md:hidden flex flex-col justify-between gap-5 absolute w-full left-0 top-[73px] bg-primaryBg transition-all duration-500 px-5 overflow-hidden h-[100vh]`}>
+                    <div className="h-full py-6 px-5 flex flex-col items-center gap-5">
                         {
-                            links.map(menu => <Link key={menu.id} className="text-white font-semibold uppercase" href={menu.slag}>{menu.title}</Link>)
+                            links.map(menu => <Link key={menu.id} className="text-white font-semibold uppercase text-center" href={menu.slag}>{menu.title}</Link>)
                         }
+                        <div><ContestButton /></div>
                     </div>
                     <div className="mb-20 py-4 px-5 flex flex-col gap-5">
                         <a className="hover:text-[#9d89fc] text-white flex items-center gap-1 hover:underline duration-300 transition-all" href="tel:+8801316451034">

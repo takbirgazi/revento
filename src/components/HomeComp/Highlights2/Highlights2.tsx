@@ -9,7 +9,7 @@ const Highlights2 = () => {
       <div className="relative p-8 rounded-4xl bg-[#051a2f]">
         <h2 className="relative md:w-10/12 mx-auto font-anton text-center lg:leading-24 text-xl md:text-7xl text-white py-9 uppercase">
           You&apos;re not alone in this. Let&apos;s fight your digital battle—side by side
-          <div className="absolute md:bottom-14 md:right-[18%]">
+          <div className="absolute md:bottom-14 bottom-10 right-7 md:right-[18%]">
             <figure className={`w-8 h-8 md:w-10 md:h-10 lg:h-25 lg:w-25 ${styles.rotateAnim2}`}>
               <Image className="h-full w-full" src={rotateImage} height={80} width={150} alt="Trusted By Startups" />
             </figure>
