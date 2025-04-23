@@ -1,10 +1,37 @@
+"use client";
+
+import { useSearchParams } from 'next/navigation';
+import { useEffect, Suspense } from 'react';
 import OurValues from "@/components/AboutComp/OurValues/OurValues";
 import Faq from "@/components/HomeComp/Faq/Faq";
 import Highlights2 from "@/components/HomeComp/Highlights2/Highlights2";
 import PricingCard from "@/components/PricingComp/PricingCard/PricingCard";
 import HeroCustom from "@/components/ShareComp/HeroCustom/HeroCustom";
 
-const page = () => {
+const PricingPage = () => {
+    const searchParams = useSearchParams();
+    const serviceId = searchParams.get('service');
+
+    useEffect(() => {
+        if (serviceId) {
+            // Small delay to ensure DOM is ready
+            setTimeout(() => {
+                const element = document.getElementById(`service-${serviceId}`);
+                if (element) {
+                    // Calculate position accounting for header
+                    const headerHeight = 100; // Adjust based on your header
+                    const elementPosition = element.getBoundingClientRect().top;
+                    const offsetPosition = elementPosition + window.pageYOffset - headerHeight;
+
+                    window.scrollTo({
+                        top: offsetPosition,
+                        behavior: 'smooth'
+                    });
+                }
+            }, 100);
+        }
+    }, [serviceId]);
+
     const heroData = {
         topHeader: "",
         mainHeader: "Pricing plans",
@@ -15,7 +42,7 @@ const page = () => {
     // const reviewData = [
     //     {
     //         id: 1,
-    //         title: "Innovex elevated our online visibility.",
+    //         title: "Innovative solutions elevated our online visibility.",
     //         desc: "Their fresh ideas and sharp execution helped us achieve record-breaking growth in a few months. Amazing!",
     //         authName: "Brooklyn Simmons",
     //         authDeg: "Product Manager",
@@ -23,7 +50,7 @@ const page = () => {
     //     },
     //     {
     //         id: 2,
-    //         title: "Working with Revento has been a game",
+    //         title: "Working with this team has been a game-changer",
     //         desc: "Their innovative solutions and proactive approach boosted our sales by 3x in just a few months. Truly outstanding!",
     //         authName: "Madison Hayes",
     //         authDeg: "Program Manager",
@@ -58,7 +85,7 @@ const page = () => {
             id: 3,
             planType: "Boost My Ranking",
             planDesc: "Get better Google rankings, more traffic, and long-term growth with smart SEO.",
-            features: ["Keyword Research", "Onpage SEO", "Offpage SEO", "Google Ranking"],
+            features: ["Keyword Research", "On-page SEO", "Off-page SEO", "Google Ranking"],
             price: "13,000",
             bgColor: "#1cb785",
             textColor: "#ffffff",
@@ -80,7 +107,7 @@ const page = () => {
             id: 5,
             planType: "Design My Brand Identity",
             planDesc: "Elevate your brand with stunning, custom designs—logos, banners, and visuals tailored to your business.",
-            features: ["Logo Design", "Social media post design", "Banner Design", "Infographics Design"],
+            features: ["Logo Design", "Social media post design", "Banner Design", "Informative Graphics Design"],
             price: "450",
             bgColor: "#e9fa49",
             textColor: "#051a2f",
@@ -151,4 +178,10 @@ const page = () => {
     );
 };
 
-export default page;
+const PricingPageWrapper = () => (
+    <Suspense fallback={<div>Loading...</div>}>
+        <PricingPage />
+    </Suspense>
+);
+
+export default PricingPageWrapper;

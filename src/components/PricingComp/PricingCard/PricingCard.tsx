@@ -19,7 +19,11 @@ interface PriceCardDataType {
 
 const PricingCard: React.FC<PriceCardDataType> = ({ priceCardData }) => {
     return (
-        <div style={{ backgroundColor: priceCardData.bgColor }} className="relative p-5 md:p-7 lg:p-14 rounded-4xl flex flex-col lg:flex-row gap-4 justify-between items-center">
+        <div
+            id={`service-${priceCardData.id}`}  // Add this ID
+            style={{ backgroundColor: priceCardData.bgColor }}
+            className="relative p-5 md:p-7 lg:p-14 rounded-4xl flex flex-col lg:flex-row gap-4 justify-between items-center"
+        >
             <div className="w-full lg:w-1/3 flex lg:justify-center">
                 <div>
                     <h2 style={{ color: priceCardData.textColor }} className="text-2xl lg:text-5xl font-medium uppercase font-anton">{priceCardData.planType}</h2>

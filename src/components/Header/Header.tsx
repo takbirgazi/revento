@@ -15,7 +15,7 @@ const Header = () => {
         {
             id: 2,
             title: "Service",
-            slag: "/service?expand=1"
+            slag: "/service"
         },
         {
             id: 3,

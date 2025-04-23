@@ -1,27 +1,7 @@
-"use client"
-import { useSearchParams } from 'next/navigation';
 import SectionHeader from '@/components/ShareComp/SectionHeader/SectionHeader';
 import ServiceCard from '../ServiceCard/ServiceCard';
-import { useEffect, useRef } from 'react';
 
 const Services = () => {
-    const searchParams = useSearchParams();
-    const expandId = searchParams.get('expand');
-    const cardRefs = useRef<(HTMLDivElement | null)[]>([]);
-
-    // Scroll to and expand the specified card
-    useEffect(() => {
-        if (expandId) {
-            const id = parseInt(expandId);
-            const index = cardData.findIndex(card => card.id === id);
-            if (index !== -1 && cardRefs.current[index]) {
-                cardRefs.current[index]?.scrollIntoView({
-                    behavior: 'smooth',
-                    block: 'center'
-                });
-            }
-        }
-    }, [expandId]);
 
     const headerData = {
         topHeading: "Our Services!",
@@ -344,17 +324,15 @@ const Services = () => {
                 <p className='w-full lg:w-1/2 text-center lg:text-left'>Unlock growth with powerful digital strategies that connect, convert, and scale.</p>
             </div>
             <div className='py-5 flex flex-col gap-4 mt-10'>
-                {cardData.map((card) => (
-                    <div
-                        key={card.id}
-                        ref={el => { cardRefs.current[card.id] = el; }}
-                    >
+                {
+                    cardData.map((card, index) => (
                         <ServiceCard
+                            key={card.id}
                             serviceCardData={card}
-                            initiallyOpen={expandId ? card.id === parseInt(expandId) : false}
+                            initiallyOpen={index === 0}  // Only true for the first card
                         />
-                    </div>
-                ))}
+                    ))
+                }
             </div>
         </div>
     );

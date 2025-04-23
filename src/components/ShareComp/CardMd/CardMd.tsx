@@ -22,7 +22,7 @@ const CardMd: React.FC<CardDataType> = ({ cardData }) => {
 
             <div className="absolute bottom-[15%] right-[10%] bg-white flex items-center justify-center h-12 w-12 rounded-full">
                 <Link
-                    href={`/service?expand=${cardData.id}`}
+                    href={`/pricing?service=${cardData.id}`}
                     className="group relative overflow-hidden -rotate-45 h-8 w-8 flex justify-center items-center"
                 >
                     <span className="flex justify-center items-center">
