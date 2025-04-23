@@ -61,7 +61,8 @@ const PricingPage = () => {
     const pricingData = [
         {
             id: 1,
-            planType: "Build My Brand",
+            planType: "Brand Strategy & Planning",
+            callToAction: "Build My Brand",
             planDesc: "Turn your idea into a sustainable brand—with guidance from a certified brand strategist.",
             features: ["Business Analysis", "Competitor Analysis", "Brand Identity Blueprint", "Future Roadmap",],
             price: "10,000",
@@ -72,7 +73,8 @@ const PricingPage = () => {
         },
         {
             id: 2,
-            planType: "Start Building",
+            planType: "Website Development",
+            callToAction: "Start Building",
             planDesc: "Get a fast, user-friendly website that boosts engagement and works perfectly on any device.",
             features: ["UI Design", "Website Development", "Website Deployment", "Website Maintenance"],
             price: "15000",
@@ -83,7 +85,8 @@ const PricingPage = () => {
         },
         {
             id: 3,
-            planType: "Boost My Ranking",
+            planType: "SEO",
+            callToAction: "Boost My Ranking",
             planDesc: "Get better Google rankings, more traffic, and long-term growth with smart SEO.",
             features: ["Keyword Research", "On-page SEO", "Off-page SEO", "Google Ranking"],
             price: "13,000",
@@ -94,7 +97,8 @@ const PricingPage = () => {
         },
         {
             id: 4,
-            planType: "Create Content",
+            planType: "Content Production",
+            callToAction: "Create Content",
             planDesc: "Grow your audience and generate more leads with content built for your ideal customer.",
             features: ["Video Production", "Photography", "Content Planning", "Editing"],
             price: "8000",
@@ -105,7 +109,8 @@ const PricingPage = () => {
         },
         {
             id: 5,
-            planType: "Design My Brand Identity",
+            planType: "Design Services",
+            callToAction: "Design My Brand Identity",
             planDesc: "Elevate your brand with stunning, custom designs—logos, banners, and visuals tailored to your business.",
             features: ["Logo Design", "Social media post design", "Banner Design", "Informative Graphics Design"],
             price: "450",
@@ -116,7 +121,8 @@ const PricingPage = () => {
         },
         {
             id: 6,
-            planType: "Manage My Socials",
+            planType: "Social Media Management",
+            callToAction: "Manage My Socials",
             planDesc: "We manage your social media channels with strategy, consistency, and care—so you stay active, relevant, and trusted.",
             features: ["Social Media Handle", "Social optimization ", "Update ", "Monitoring"],
             price: "2000",
@@ -127,7 +133,8 @@ const PricingPage = () => {
         },
         {
             id: 7,
-            planType: "Get Leads Now !",
+            planType: "Lead generation",
+            callToAction: "Get Leads Now !",
             planDesc: "Attract potential customers with targeted strategies and smart tools, turning interest into valuable business opportunities.",
             features: ["Verified Leads", "Paid Lead Campaign", "Automated Leads", "Linkedin Leads"],
             price: "1400",
@@ -138,7 +145,8 @@ const PricingPage = () => {
         },
         {
             id: 8,
-            planType: "Launch My Campaign",
+            planType: "Paid Campaign",
+            callToAction: "Launch My Campaign",
             planDesc: "We run targeted, data-driven paid campaigns that boost visibility, drive traffic, and deliver real, measurable ROI.",
             features: ["Brand Strategy ", "Design Service", "Social Media management", "Content marketing"],
             price: "22000",

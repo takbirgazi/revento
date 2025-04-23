@@ -14,6 +14,7 @@ interface PriceCardDataType {
         textColor: string,
         isStartsFrom: boolean,
         currency: string,
+        callToAction: string
     }
 }
 
@@ -48,7 +49,7 @@ const PricingCard: React.FC<PriceCardDataType> = ({ priceCardData }) => {
                     <h2 style={{ color: priceCardData.textColor }}><span className="text-2xl lg:text-5xl font-medium uppercase font-anton">{priceCardData.price}</span><sub className="text-sm uppercase pl-1 font-semibold">{priceCardData.currency}</sub></h2>
                     <div className="flex py-5">
                         <Link href="/contact" className="group bg-white hover:bg-[#051a2f] text-[#051a2f] hover:text-white font-bold rounded-full px-3 md:px-7 py-5 hover:border-white uppercase text-sm lg:text-lg flex items-center gap-2 transition-all duration-300" >
-                            <span>Get in touch</span>
+                            <span>{priceCardData.callToAction}</span>
                             <span className="relative h-4 w-5 lg:h-5 overflow-hidden">
                                 <FaArrowRight className="absolute top-0 group-hover:translate-x-8 text-[#051a2f] transition-all duration-500" />
                                 <FaArrowRight className="absolute top-0 -translate-x-8 text-white group-hover:translate-x-0 transition-all duration-500" />

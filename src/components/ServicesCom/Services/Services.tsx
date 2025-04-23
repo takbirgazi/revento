@@ -321,7 +321,7 @@ const Services = () => {
         <div className='py-10'>
             <div data-aos="fade-up" className='flex flex-col lg:flex-row justify-between lg:items-end gap-5'>
                 <SectionHeader headerData={headerData} />
-                <p className='w-full lg:w-1/2 text-center lg:text-left'>Unlock growth with powerful digital strategies that connect, convert, and scale.</p>
+                <p className='w-full lg:w-1/2 text-center lg:text-left'>Growth-focused strategies that engage, convert, and expand your impact.</p>
             </div>
             <div className='py-5 flex flex-col gap-4 mt-10'>
                 {
