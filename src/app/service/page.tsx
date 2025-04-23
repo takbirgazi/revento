@@ -1,7 +1,7 @@
 import Faq from "@/components/HomeComp/Faq/Faq";
 import Highlights2 from "@/components/HomeComp/Highlights2/Highlights2";
 import Partners from "@/components/HomeComp/Partners/Partners";
-import Testimonials from "@/components/HomeComp/TestimonialsSlider/Testimonials/Testimonials";
+import TestimonialsSlider from "@/components/HomeComp/TestimonialsSlider/TestimonialsSlider";
 import Services from "@/components/ServicesCom/Services/Services";
 import HeroCustom from "@/components/ShareComp/HeroCustom/HeroCustom";
 
@@ -39,7 +39,7 @@ const page = () => {
                     </div>
                 </div> */}
                 <Services />
-                <Testimonials />
+                <TestimonialsSlider />
                 <Partners />
                 {/* <div className='max-w-4xl mx-auto py-16'>
                     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4'>

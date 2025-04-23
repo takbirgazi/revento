@@ -1,6 +1,6 @@
 import Faq from '@/components/HomeComp/Faq/Faq';
 import Highlights2 from '@/components/HomeComp/Highlights2/Highlights2';
-import Testimonials from '@/components/HomeComp/TestimonialsSlider/Testimonials/Testimonials';
+import TestimonialsSlider from '@/components/HomeComp/TestimonialsSlider/TestimonialsSlider';
 import HeroTestimonial from '@/components/TestimonialComp/HeroTestimonial/HeroTestimonial';
 import ReviewCard from '@/components/TestimonialComp/ReviewCard/ReviewCard';
 import Image from 'next/image';
@@ -97,7 +97,7 @@ const page = () => {
                         reviewData.map(data => <ReviewCard reviewData={data} key={data.id} />)
                     }
                 </div>
-                <Testimonials />
+                <TestimonialsSlider />
                 <div className='max-w-4xl mx-auto py-16'>
                     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4'>
                         <figure>
