@@ -41,7 +41,7 @@ const page = () => {
             bgColor: "#9d89fc",
             textColor: "#ffffff",
             isStartsFrom: false,
-            currency: "tk / month",
+            currency: "bdt / month",
         },
         {
             id: 2,
@@ -52,7 +52,7 @@ const page = () => {
             bgColor: "#e9fa49",
             textColor: "#051a2f",
             isStartsFrom: true,
-            currency: "tk",
+            currency: "bdt",
         },
         {
             id: 3,
@@ -63,7 +63,7 @@ const page = () => {
             bgColor: "#1cb785",
             textColor: "#ffffff",
             isStartsFrom: true,
-            currency: "tk / month",
+            currency: "bdt / month",
         },
         {
             id: 4,
@@ -85,7 +85,7 @@ const page = () => {
             bgColor: "#e9fa49",
             textColor: "#051a2f",
             isStartsFrom: true,
-            currency: "/ per piece",
+            currency: "bdt / per piece",
         },
         {
             id: 6,
@@ -107,7 +107,7 @@ const page = () => {
             bgColor: "#9d89fc",
             textColor: "#ffffff",
             isStartsFrom: true,
-            currency: "tk / per lead (MOQ-200)",
+            currency: "bdt / per lead (MOQ-200)",
         },
         {
             id: 8,
@@ -118,7 +118,7 @@ const page = () => {
             bgColor: "#e9fa49",
             textColor: "#051a2f",
             isStartsFrom: true,
-            currency: "Bdt/month",
+            currency: "Bdt / month",
         }
     ]
 

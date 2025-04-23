@@ -23,7 +23,7 @@ const ServiceCard: React.FC<ServiceCardDataType> = ({ serviceCardData, initially
     const [isOpen, setIsOpen] = useState(initiallyOpen);
 
     return (
-        <div style={{ backgroundColor: serviceCardData.bgColor }} className="relative p-5 md:p-7 lg:p-8 rounded-4xl">
+        <div style={{ backgroundColor: serviceCardData.bgColor }} className="relative p-10 md:p-12 lg:p-14 rounded-4xl">
             {/* Header section with toggle button */}
             <div className="flex justify-between items-center pt-7">
                 <div>
