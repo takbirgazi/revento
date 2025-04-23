@@ -21,7 +21,10 @@ const CardMd: React.FC<CardDataType> = ({ cardData }) => {
             <p className="w-11/12 text-sm leading-6 text-white">{cardData.desc}</p>
 
             <div className="absolute bottom-[15%] right-[10%] bg-white flex items-center justify-center h-12 w-12 rounded-full">
-                <Link href={cardData.link} className="group relative overflow-hidden -rotate-45 h-8 w-8 flex justify-center items-center ">
+                <Link
+                    href={`/service?expand=${cardData.id}`}
+                    className="group relative overflow-hidden -rotate-45 h-8 w-8 flex justify-center items-center"
+                >
                     <span className="flex justify-center items-center">
                         <FaArrowRight className="absolute text-2xl top-1 group-hover:translate-x-8 text-[#ff8f27] transition-all duration-500" />
                         <FaArrowRight className="absolute text-2xl top-1 -translate-x-8 text-[#ff8f27] group-hover:translate-x-0 transition-all duration-500" />

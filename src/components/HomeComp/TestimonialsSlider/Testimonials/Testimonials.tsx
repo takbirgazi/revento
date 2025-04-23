@@ -15,7 +15,7 @@ const Testimonials: React.FC<TestimonialsType> = ({ testimonialsData }) => {
     return (
         <div className="py-5 flex flex-col md:flex-row md:gap-20 items-center justify-between">
             <div className='relative overflow-hidden'>
-                <figure className="h-72 md:h-full rounded-4xl overflow-hidden">
+                <figure className="h-60 md:h-[400px] rounded-4xl overflow-hidden">
                     <Image className='w-full h-full' src={testimonialsData.image} height={850} width={580} alt='Testimonials Image' />
                 </figure>
 
