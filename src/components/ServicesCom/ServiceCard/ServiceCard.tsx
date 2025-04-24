@@ -23,11 +23,11 @@ const ServiceCard: React.FC<ServiceCardDataType> = ({ serviceCardData, initially
     const [isOpen, setIsOpen] = useState(initiallyOpen);
 
     return (
-        <div style={{ backgroundColor: serviceCardData.bgColor }} className="relative p-10 md:p-12 lg:p-14 rounded-4xl">
+        <div style={{ backgroundColor: serviceCardData.bgColor }} className="relative p-6 md:p-12 lg:p-14 rounded-4xl">
             {/* Header section with toggle button */}
-            <div className="flex justify-between items-center pt-7">
+            <div className="flex justify-between items-center pt-5 md:pt-7">
                 <div>
-                    <h2 style={{ color: serviceCardData.textColor }} className="text-2xl lg:text-4xl font-medium uppercase font-anton">{serviceCardData.heading}</h2>
+                    <h2 style={{ color: serviceCardData.textColor }} className="text-lg leading-5 md:leading-9 lg:text-4xl font-medium uppercase font-anton">{serviceCardData.heading}</h2>
                     <h2 style={{ color: serviceCardData.textColor }} className="py-3">{serviceCardData.subHeading}</h2>
                 </div>
                 <button
@@ -41,11 +41,11 @@ const ServiceCard: React.FC<ServiceCardDataType> = ({ serviceCardData, initially
 
             {/* Collapsible content */}
             {isOpen && (
-                <div className="mt-6 pt-6 border-t border-white border-opacity-20 flex flex-col gap-4 pr-8">
+                <div className="mt-6 pt-6 border-t border-white border-opacity-20 flex flex-col gap-4 md:pr-8">
                     {
                         serviceCardData.description.map((item) => (
                             <div key={item.id} className="flex flex-col gap-1">
-                                <h3 style={{ color: serviceCardData.textColor }} className="text-lg font-semibold">{item.title}</h3>
+                                <h3 style={{ color: serviceCardData.textColor }} className="text-base md:text-lg font-semibold leading-5">{item.title}</h3>
                                 <p style={{ color: serviceCardData.textColor }} className="text-sm text-gray-300">{item.desc}</p>
                             </div>
                         ))

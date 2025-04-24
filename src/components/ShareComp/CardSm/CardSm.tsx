@@ -15,7 +15,7 @@ interface CardDataType {
 
 const CardSm: React.FC<CardDataType> = ({ cardData }) => {
     return (
-        <div style={{ backgroundColor: cardData.bgColor }} className={`relative rounded-3xl overflow-hidden p-5 w-60 pt-7 pb-12`}>
+        <div style={{ backgroundColor: cardData.bgColor }} className={`relative rounded-3xl overflow-hidden p-5 w-60 pt-5 md:pt-7 pb-7 md:pb-12`}>
             <div className="flex justify-between">
                 <h2 className="text-xl lg:text-4xl font-bold pb-2">{cardData.title}</h2>
                 <div className="group relative overflow-hidden -mt-4 -mr-3 -rotate-45 h-8 w-8 flex justify-center items-center ">
@@ -25,7 +25,7 @@ const CardSm: React.FC<CardDataType> = ({ cardData }) => {
                     </span>
                 </div>
             </div>
-            <p className="w-11/12 text-sm leading-6">{cardData.desc}</p>
+            <p className="text-sm leading-6">{cardData.desc}</p>
 
             <figure className="absolute -top-[1px] right-[25%]">
                 <Image className=" w-[40px]" src={cardData.topImageLink} alt="Icon" height={100} width={100} />

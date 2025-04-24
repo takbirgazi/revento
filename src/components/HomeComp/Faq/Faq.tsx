@@ -10,7 +10,7 @@ const Faq = () => {
         headingColor: "#051a2f"
     }
     return (
-        <div data-aos="fade-up" data-aos-offset="-200" className="py-10 flex flex-col md:flex-row gap-4 justify-between">
+        <div data-aos="fade-up" data-aos-offset="-200" className="md:py-10 flex flex-col md:flex-row gap-4 justify-between">
             <div className="w-full md:w-1/2">
                 <div className="lg:w-2/3 w-full">
                     <SectionHeader headerData={headerData} />

@@ -318,12 +318,12 @@ const Services = () => {
         },
     ]
     return (
-        <div className='py-10'>
+        <div className='py-7 md:py-10'>
             <div data-aos="fade-up" className='flex flex-col lg:flex-row justify-between lg:items-end gap-5'>
                 <SectionHeader headerData={headerData} />
                 <p className='w-full lg:w-1/2 text-center lg:text-left'>Growth-focused strategies that engage, convert, and expand your impact.</p>
             </div>
-            <div className='py-5 flex flex-col gap-4 mt-10'>
+            <div className='py-5 grid grid-cols-1 gap-2 md:gap-4 md:mt-10'>
                 {
                     cardData.map((card, index) => (
                         <ServiceCard

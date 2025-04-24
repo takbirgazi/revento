@@ -166,7 +166,7 @@ const PricingPage = () => {
                     <span className=" text-[#828d97] tracking-tight"> all your digital marketing services</span>
                 </h2>
                 <div>
-                    <div className="flex flex-col gap-12">
+                    <div className="grid grid-cols-2 md:grid-cols-1 gap-3 md:gap-12">
                         {
                             pricingData.map(data => <PricingCard key={data.id} priceCardData={data} />)
                         }

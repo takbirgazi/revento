@@ -33,9 +33,9 @@ const Header = () => {
         <div className="bg-primaryBg sticky top-0 z-40">
             <nav className="container mx-auto max-w-[1280px] lg:py-2 py-1 px-5 flex items-center justify-between gap-16">
                 <div className="flex items-center gap-8">
-                    <Link href="/">
-                        <figure>
-                            <Image className="" src={logo} height={20} width={130} alt="Logo" />
+                    <Link className="w-28 md:w-32" href="/">
+                        <figure >
+                            <Image src={logo} height={20} width={130} alt="Logo" />
                         </figure>
                     </Link>
                     <div className="hidden md:flex justify-center items-center gap-2">
@@ -47,7 +47,6 @@ const Header = () => {
                             </div>
                             )
                         }
-                        {/* <a className="hover:bg-[#fb8d27] px-5 py-1.5 rounded-2xl transition-all duration-500 text-sm font-semibold text-white whitespace-nowrap uppercase border-2 border-transparent hover:border-[#fb8d27] hover:shadow-[0_0_10px_#fb8d27] focus:outline-none ring-2 ring-[#fb8d27]" href="https://contest.motionmark.agency" target="_blank" rel="noopener noreferrer">Contest</a> */}
                         <ContestButton />
                     </div>
                 </div>

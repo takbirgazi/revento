@@ -28,8 +28,8 @@ const HeroBottom = () => {
             <div data-aos="fade-up" className="flex flex-col lg:flex-row justify-between gap-4 px-5">
                 <div className="w-full lg:w-1/2">
                     <p className="max-w-[450px] lg:mx-0 mx-auto text-center lg:text-left">
-                        <span className="text-xl lg:text-4xl font-medium uppercase text-white tracking-tighter">Smart, Scalable Digital Solutions Designed to Deliver ROI </span>
-                        <span className="text-xl lg:text-4xl font-medium uppercase text-[#828d97] tracking-tighter"> We’re in this with you—from strategy to execution.</span>
+                        <span className="text-lg lg:text-4xl font-medium uppercase text-white tracking-tighter">Smart, Scalable Digital Solutions Designed to Deliver ROI </span>
+                        <span className="text-lg lg:text-4xl font-medium uppercase text-[#828d97] tracking-tighter"> We’re in this with you—from strategy to execution.</span>
                     </p>
                 </div>
                 <div className="w-full lg:w-1/2">

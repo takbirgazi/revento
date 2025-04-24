@@ -68,7 +68,7 @@ const MobileMenu: React.FC<MenuType> = ({ links }) => {
 
             <div
                 className={`md:hidden flex flex-col justify-between gap-5 absolute w-full left-0 bg-primaryBg transition-all duration-700 px-5 overflow-hidden ${isActive
-                    ? "top-[73px] h-[calc(100vh-73px)] opacity-100"
+                    ? "top-[60px] h-[calc(100vh-60px)] opacity-100"
                     : "top-[-100vh] h-0 opacity-0"
                     }`}
             >

@@ -23,7 +23,7 @@ const Hero = () => {
     }, []);
     return (
         <div className="bg-primaryBg">
-            <div data-aos="fade-up" className="container mx-auto max-w-[1280px] pt-20">
+            <div data-aos="fade-up" className="container mx-auto max-w-[1280px] pt-7 md:pt-20">
                 <p className="text-white text-center font-medium md:text-base text-sm py-6 lg:py-2">Fastest Growing Digital Agency in Bangladesh</p>
 
                 <div className="max-w-5xl mx-auto lg:leading-30 leading-12">
@@ -91,7 +91,7 @@ const Hero = () => {
 
                     <h2 className="text-center text-white text-[40px] lg:text-[100px] uppercase font-medium tracking-tight font-anton"> Impact</h2>
                 </div>
-                <p className="text-center text-white max-w-xl mx-auto py-5">Unlock growth with powerful digital strategies that connect, convert, and scale.</p>
+                <p className="text-center text-white max-w-xl mx-auto p-5">Unlock growth with powerful digital strategies that connect, convert, and scale.</p>
                 <div className="flex justify-center items-center pb-5">
                     <CustomButton link="/contact" title="get in touch" />
                 </div>

@@ -16,11 +16,11 @@ interface CardDataType {
 
 const CardMd: React.FC<CardDataType> = ({ cardData }) => {
     return (
-        <div data-aos="fade-up" style={{ backgroundColor: cardData.bgColor }} className={`relative rounded-3xl overflow-hidden p-10 min-h-72`}>
-            <h2 className="text-xl lg:text-4xl pb-2 font-anton text-white">{cardData.title}</h2>
-            <p className="w-11/12 text-sm leading-6 text-white">{cardData.desc}</p>
+        <div data-aos="fade-up" style={{ backgroundColor: cardData.bgColor }} className={`relative rounded-3xl overflow-hidden p-5 md:p-10 min-h-72`}>
+            <h2 className="text-lg lg:text-4xl pb-2 leading-6 md:leading-9 font-anton text-white">{cardData.title}</h2>
+            <p className="w-11/12 text-sm md:leading-6 text-white">{cardData.desc}</p>
 
-            <div className="absolute bottom-[15%] right-[10%] bg-white flex items-center justify-center h-12 w-12 rounded-full">
+            <div className="absolute bottom-[5%] md:bottom-[15%] right-[10%] bg-white flex items-center justify-center h-12 w-12 rounded-full">
                 <Link
                     href={`/pricing?service=${cardData.id}`}
                     className="group relative overflow-hidden -rotate-45 h-8 w-8 flex justify-center items-center"
@@ -33,10 +33,10 @@ const CardMd: React.FC<CardDataType> = ({ cardData }) => {
             </div>
 
             <figure className="absolute top-0 right-[10%]">
-                <Image className=" w-[70px]" src={cardData.topImageLink} alt="Icon" height={200} width={200} />
+                <Image className="w-[40px] md:w-[70px]" src={cardData.topImageLink} alt="Top Icon" height={200} width={200} />
             </figure>
             <figure className="absolute bottom-0 left-[10%]">
-                <Image className=" w-[70px]" src={cardData.bottomImageLink} alt="Icon" height={200} width={200} />
+                <Image className="w-[40px] md:w-[70px]" src={cardData.bottomImageLink} alt="Bottom Icon" height={200} width={200} />
             </figure>
         </div>
     );

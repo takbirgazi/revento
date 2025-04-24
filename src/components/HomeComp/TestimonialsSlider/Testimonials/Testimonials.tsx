@@ -35,8 +35,8 @@ const Testimonials: React.FC<TestimonialsType> = ({ testimonialsData }) => {
                             <div className={styles.CirkelMainBg}> </div>
                         </div>
                     </div>
-                    <h2 className="text-[#ff4f3f] text-2xl text-center lg:text-left lg:text-3xl pb-5 font-anton">Testimonials</h2>
-                    <h3 className="text-[#051a2f] text-[30px] text-center lg:text-left lg:text-[65px] uppercase font-medium tracking-tight font-anton leading-10 lg:leading-20">{testimonialsData.message}
+                    <h2 className="text-[#ff4f3f] text-xl text-center lg:text-left lg:text-3xl pb-5 font-anton">Testimonials</h2>
+                    <h3 className="text-[#051a2f] text-[20px] text-center lg:text-left lg:text-[65px] uppercase font-medium tracking-tight font-anton leading-7 lg:leading-20">{testimonialsData.message}
                         {/* <span className="text-[#828c97]">by 200% in just three months!</span> */}
                     </h3>
                     <p className="text-[#828c97] py-2 text-center md:text-left">{testimonialsData.name}, {testimonialsData.deg}</p>

@@ -97,7 +97,7 @@ const Services = () => {
                 <SectionHeader headerData={headerData} />
                 <p className='w-full lg:w-1/2 text-center lg:text-left'>Digital growth starts here—connect, convert, and rise above.</p>
             </div>
-            <div className='py-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
+            <div className='py-5 grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4'>
                 {
                     cardData.map(card => <CardMd key={card.id} cardData={card} />)
                 }

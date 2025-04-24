@@ -4,6 +4,7 @@ import "./globals.css";
 import 'aos/dist/aos.css';
 import Header from "@/components/Header/Header";
 import Footer from "@/components/Footer/Footer";
+import SmoothScrollWrapper from "./SmoothScrollWrapper";
 
 // Configure Anton font
 const anton = Anton({
@@ -39,13 +40,14 @@ export default function RootLayout({
         />
       </head>
       <body className="font-inter"> {/* Default font is Inter */}
-        <Header />
-        {children}
-        <Footer />
+        <SmoothScrollWrapper>
+          <Header />
+          {children}
+          <Footer />
 
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
       var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
       (function() {
         var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
@@ -56,10 +58,9 @@ export default function RootLayout({
         s0.parentNode.insertBefore(s1, s0);
       })();
     `,
-          }}
-        ></script>
-
-
+            }}
+          ></script>
+        </SmoothScrollWrapper>
       </body>
     </html>
   );
